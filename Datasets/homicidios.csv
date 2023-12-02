@@ -1,12 +1,12 @@
 Id,Rol,Víctima,Sexo,Edad,Días_de_muerte_post_accidente,No_víctimas,Fecha,Hora,Tipo_de_calle,Calle,Comuna,X,Y,Acusado,Cruce_o_altura
 2016-0001,Conductor,Moto,Masculino,19,0.0,1.0,2016-01-01 00:00:00,4,Avenida,Piedra Buena Av.,8.0,-58.47533969,-34.68757022,Auto,Cruce
-2016-0002,Conductor,Auto,Masculino,70,0.0,1.0,2016-01-02 00:00:00,1,Gral Paz,"Paz, Gral. Av.",9.0,-58.50877521,-34.66977709,Pasajeros,Cruce
+2016-0002,Conductor,Auto,Masculino,70,0.0,1.0,2016-01-02 00:00:00,1,Autopista,"Paz, Gral. Av.",9.0,-58.50877521,-34.66977709,Pasajeros,Cruce
 2016-0003,Conductor,Moto,Masculino,30,0.0,1.0,2016-01-03 00:00:00,7,Avenida,entre Rios Av.,1.0,-58.39040293,-34.63189362,Auto,Altura
-2016-0004,Conductor,Moto,Masculino,18,Sd,1.0,2016-01-10 00:00:00,0,Avenida,Larrazabal Av.,8.0,-58.46503904,-34.68092974,Sd,Cruce
+2016-0004,Conductor,Moto,Masculino,18,,1.0,2016-01-10 00:00:00,0,Avenida,Larrazabal Av.,8.0,-58.46503904,-34.68092974,,Cruce
 2016-0005,Conductor,Moto,Masculino,29,11.0,1.0,2016-01-21 00:00:00,5,Avenida,San Juan Av.,1.0,-58.38718297,-34.62246630,Pasajeros,Cruce
 2016-0008,Conductor,Moto,Masculino,30,0.0,1.0,2016-01-24 00:00:00,18,Avenida,27 de Febrero Av.,8.0,-58.44451316,-34.68475866,Objeto Fijo,Cruce
 2016-0009,Pasajero_acompañante,Moto,Masculino,29,2.0,1.0,2016-01-24 00:00:00,19,Calle,Nogoya,11.0,-58.50095869,-34.60825440,Auto,Cruce
-2016-0010,Conductor,Moto,Masculino,18,0.0,1.0,2016-01-29 00:00:00,15,Gral Paz,"Paz, Gral. Av.",9.0,-58.50877521,-34.66977709,Auto,Cruce
+2016-0010,Conductor,Moto,Masculino,18,0.0,1.0,2016-01-29 00:00:00,15,Autopista,"Paz, Gral. Av.",9.0,-58.50877521,-34.66977709,Auto,Cruce
 2016-0012,Conductor,Moto,Masculino,22,0.0,1.0,2016-02-08 00:00:00,1,Avenida,Belgrano Av.,1.0,-58.38048577,-34.61303893,Cargas,Cruce
 2016-0013,Peaton,Peaton,Masculino,16,0.0,1.0,2016-02-10 00:00:00,11,Avenida,entre Rios Av.,1.0,-58.39114932,-34.62477387,Auto,Altura
 2016-0015,Peaton,Peaton,Femenino,16,0.0,1.0,2016-02-14 00:00:00,5,Avenida,"Scalabrini Ortiz, Raul Av.",15.0,-58.43760020,-34.59912758,Auto,Cruce
@@ -15,180 +15,178 @@ Id,Rol,Víctima,Sexo,Edad,Días_de_muerte_post_accidente,No_víctimas,Fecha,Hora
 2016-0019,Peaton,Peaton,Femenino,65,0.0,1.0,2016-02-17 00:00:00,9,Calle,"de la Torre, Lisandro",9.0,-58.50990884,-34.65468721,Pasajeros,Cruce
 2016-0020,Peaton,Peaton,Masculino,59,14.0,1.0,2016-02-17 00:00:00,16,Calle,Suipacha,1.0,-58.37952223,-34.60653282,Auto,Altura
 2016-0021,Conductor,Auto,Masculino,34,0.0,1.0,2016-02-17 00:00:00,23,Avenida,Directorio Av.,7.0,-58.45157703,-34.63063795,Auto,Cruce
-2016-0022,Pasajero_acompañante,Moto,Masculino,41,Sd,1.0,2016-02-21 00:00:00,6,Avenida,9 de Julio Av.,1.0,-58.38144696,-34.61079875,Auto,Cruce
-2016-0025,Pasajero_acompañante,Auto,Masculino,34,0.0,1.0,2016-02-28 00:00:00,4,Gral Paz,"Paz, Gral. Av.",8.0,-58.46244952,-34.70524971,Auto,Cruce
+2016-0022,Pasajero_acompañante,Moto,Masculino,41,,1.0,2016-02-21 00:00:00,6,Avenida,9 de Julio Av.,1.0,-58.38144696,-34.61079875,Auto,Cruce
+2016-0025,Pasajero_acompañante,Auto,Masculino,34,0.0,1.0,2016-02-28 00:00:00,4,Autopista,"Paz, Gral. Av.",8.0,-58.46244952,-34.70524971,Auto,Cruce
 2016-0026,Conductor,Auto,Masculino,30,5.0,1.0,2016-02-28 00:00:00,7,Calle,Holmberg,12.0,-58.49216191,-34.54738649,Objeto Fijo,Cruce
-2016-0027,Pasajero_acompañante,Auto,Masculino,34,Sd,1.0,2016-02-28 00:00:00,9,Avenida,Curapaligue Av.,7.0,-58.44497874,-34.63852623,Auto,Cruce
+2016-0027,Pasajero_acompañante,Auto,Masculino,34,,1.0,2016-02-28 00:00:00,9,Avenida,Curapaligue Av.,7.0,-58.44497874,-34.63852623,Auto,Cruce
 2016-0028,Peaton,Peaton,Masculino,50,0.0,1.0,2016-03-02 00:00:00,10,Avenida,Viamonte,1.0,-58.38199706,-34.60028648,Cargas,Cruce
 2016-0029,Peaton,Peaton,Masculino,38,0.0,1.0,2016-03-04 00:00:00,17,Avenida,Cabildo Av.,12.0,-58.47378664,-34.54153077,Pasajeros,Cruce
-2016-0031,Conductor,Moto,Masculino,21,Sd,1.0,2016-03-08 00:00:00,12,Gral Paz,"Paz, Gral. Av.",8.0,-58.47064556,-34.69843756,Pasajeros,Cruce
+2016-0031,Conductor,Moto,Masculino,21,,1.0,2016-03-08 00:00:00,12,Autopista,"Paz, Gral. Av.",8.0,-58.47064556,-34.69843756,Pasajeros,Cruce
 2016-0034,Peaton,Peaton,Masculino,52,0.0,1.0,2016-03-12 00:00:00,12,Avenida,"Alcorta, Amancio Av.",4.0,-58.40623949,-34.65076549,Pasajeros,Cruce
 2016-0035,Conductor,Moto,Masculino,34,0.0,1.0,2016-03-13 00:00:00,6,Avenida,Corrientes Av.,3.0,-58.39228965,-34.60443527,Pasajeros,Cruce
 2016-0036,Pasajero_acompañante,Moto,Masculino,36,0.0,1.0,2016-03-14 00:00:00,0,Calle,Herrera,4.0,-58.37813396,-34.63668504,Pasajeros,Cruce
 2016-0037,Conductor,Moto,Masculino,20,0.0,1.0,2016-03-19 00:00:00,11,Avenida,Lafuente Av.,7.0,-58.46275892,-34.64358293,Moto,Cruce
-2016-0038,Peaton,Peaton,Masculino,29,0.0,1.0,2016-03-21 00:00:00,8,Gral Paz,"Paz, Gral. Av.",8.0,-58.49683458,-34.67892743,Pasajeros,Cruce
+2016-0038,Peaton,Peaton,Masculino,29,0.0,1.0,2016-03-21 00:00:00,8,Autopista,"Paz, Gral. Av.",8.0,-58.49683458,-34.67892743,Pasajeros,Cruce
 2016-0039,Conductor,Moto,Masculino,20,0.0,1.0,2016-03-23 00:00:00,1,Avenida,"Mitre, Bartolome",3.0,-58.40603217,-34.60883960,Pasajeros,Cruce
 2016-0041,Conductor,Moto,Masculino,54,0.0,2.0,2016-03-29 00:00:00,11,Avenida,Directorio Av.,7.0,-58.46076550,-34.63350444,Cargas,Cruce
-2016-0041,Pasajero_acompañante,Moto,Masculino,Sd,1.0,2.0,2016-03-29 00:00:00,11,Avenida,Directorio Av.,7.0,-58.46076550,-34.63350444,Cargas,Cruce
+2016-0041,Pasajero_acompañante,Moto,Masculino,,1.0,2.0,2016-03-29 00:00:00,11,Avenida,Directorio Av.,7.0,-58.46076550,-34.63350444,Cargas,Cruce
 2016-0043,Peaton,Peaton,Femenino,56,0.0,1.0,2016-03-30 00:00:00,18,Avenida,"Dellepiane, Luis, Tte. Gral.",8.0,-58.47832463,-34.67494416,Cargas,Cruce
 2016-0044,Conductor,Moto,Masculino,24,0.0,1.0,2016-03-31 00:00:00,19,Avenida,"Moreno, Jose Maria Av.",7.0,-58.43213235,-34.63693953,Multiple,Cruce
-2016-0045,Conductor,Moto,Masculino,Sd,Sd,1.0,2016-04-11 00:00:00,10,Gral Paz,"Paz, Gral. Av.",13.0,-58.46743471,-34.53476874,Sd,Cruce
+2016-0045,Conductor,Moto,Masculino,,,1.0,2016-04-11 00:00:00,10,Autopista,"Paz, Gral. Av.",13.0,-58.46743471,-34.53476874,,Cruce
 2016-0047,Peaton,Peaton,Masculino,41,0.0,1.0,2016-04-15 00:00:00,5,Calle,Lima,1.0,-58.38247061,-34.62571878,Pasajeros,Altura
-2016-0048,Peaton,Peaton,Femenino,Sd,Sd,1.0,2016-04-15 00:00:00,17,Avenida,Corrientes Av.,15.0,-58.44759966,-34.59170240,Pasajeros,Cruce
-2016-0049,Sd,Sd,Sd,Sd,Sd,1.0,2016-04-17 00:00:00,0,Autopista,Autopista 1 Sur Presidente Arturo Frondizi,4.0,-58.37714647568196,-34.63657525428238,Sd,Sd
+2016-0048,Peaton,Peaton,Femenino,,,1.0,2016-04-15 00:00:00,17,Avenida,Corrientes Av.,15.0,-58.44759966,-34.59170240,Pasajeros,Cruce
+2016-0049,,,,,,1.0,2016-04-17 00:00:00,0,Autopista,Autopista 1 Sur Presidente Arturo Frondizi,4.0,-58.37714647568196,-34.63657525428238,,
 2016-0050,Peaton,Peaton,Masculino,78,0.0,1.0,2016-04-19 00:00:00,9,Avenida,"Gordillo, Timoteo",8.0,-58.47305463,-34.68550712,Pasajeros,Cruce
 2016-0051,Conductor,Moto,Masculino,36,0.0,1.0,2016-04-20 00:00:00,4,Avenida,"Alcorta, Amancio Av.",4.0,-58.40623949,-34.65076549,Cargas,Cruce
-2016-0052,Sd,Moto,Sd,Sd,Sd,1.0,2016-04-20 00:00:00,20,Autopista,"Lugones, Leopoldo Av.",13.0,-58.46388888888889,-34.55361111111111,Sd,Sd
+2016-0052,,Moto,,,,1.0,2016-04-20 00:00:00,20,Autopista,"Lugones, Leopoldo Av.",13.0,-58.46388888888889,-34.55361111111111,,
 2016-0053,Peaton,Peaton,Masculino,38,0.0,1.0,2016-04-22 00:00:00,9,Avenida,Triunvirato Av.,12.0,-58.48429180,-34.57558053,Pasajeros,Cruce
 2016-0054,Conductor,Moto,Masculino,30,2.0,1.0,2016-04-23 00:00:00,21,Autopista,Autopista Dellepiane Luis Tte. Gral.,8.0,-58.48695354,-34.68795245,Moto,Cruce
 2016-0055,Peaton,Peaton,Masculino,79,3.0,1.0,2016-04-25 00:00:00,20,Avenida,"Castilla, Ramon, Mariscal",14.0,-58.40021959,-34.57964781,Cargas,Cruce
 2016-0056,Conductor,Moto,Masculino,26,0.0,1.0,2016-04-26 00:00:00,4,Avenida,"Campos, Luis M. Av.",14.0,-58.42957885,-34.57660058,Objeto Fijo,Altura
 2016-0058,Peaton,Peaton,Femenino,57,4.0,1.0,2016-05-04 00:00:00,14,Calle,Lima,1.0,-58.38247542,-34.62556293,Moto,Altura
 2016-0059,Peaton,Peaton,Masculino,37,18.0,1.0,2016-05-08 00:00:00,16,Calle,Ciudadela,1.0,-58.38222219,-34.62728101,Pasajeros,Cruce
-2016-0064,Peaton,Peaton,Masculino,20,Sd,1.0,2016-05-14 00:00:00,18,Avenida,"Justo, Juan B. Av.",10.0,-58.49485242,-34.62953445,Pasajeros,Cruce
+2016-0064,Peaton,Peaton,Masculino,20,,1.0,2016-05-14 00:00:00,18,Avenida,"Justo, Juan B. Av.",10.0,-58.49485242,-34.62953445,Pasajeros,Cruce
 2016-0065,Peaton,Peaton,Masculino,20,0.0,1.0,2016-05-20 00:00:00,14,Avenida,Gaona Av.,6.0,-58.45227946,-34.61068024,Auto,Cruce
-2016-0067,Pasajero_acompañante,Moto,Femenino,30,Sd,1.0,2016-05-21 00:00:00,17,Avenida,"de la Torre, Lisandro",8.0,-58.48455411,-34.67512760,Pasajeros,Cruce
-2016-0068,Conductor,Moto,Masculino,58,Sd,1.0,2016-05-22 00:00:00,22,Avenida,"Figueroa Alcorta, Pres. Av.",2.0,-58.39056593,-34.58418569,Pasajeros,Cruce
+2016-0067,Pasajero_acompañante,Moto,Femenino,30,,1.0,2016-05-21 00:00:00,17,Avenida,"de la Torre, Lisandro",8.0,-58.48455411,-34.67512760,Pasajeros,Cruce
+2016-0068,Conductor,Moto,Masculino,58,,1.0,2016-05-22 00:00:00,22,Avenida,"Figueroa Alcorta, Pres. Av.",2.0,-58.39056593,-34.58418569,Pasajeros,Cruce
 2016-0069,Conductor,Auto,Masculino,30,0.0,1.0,2016-05-23 00:00:00,3,Avenida,entre Rios Av.,3.0,-58.39118948,-34.62704273,Cargas,Cruce
-2016-0073,Conductor,Moto,Masculino,23,Sd,1.0,2016-06-11 00:00:00,15,Calle,"Magari?os Cervantes, A.",10.0,-58.49021952,-34.62025108,Cargas,Altura
-2016-0074,Conductor,Auto,Masculino,60,Sd,1.0,2016-06-12 00:00:00,6,Gral Paz,"Paz, Gral. Av.",8.0,-58.49896559,-34.67732118,Auto,Cruce
+2016-0073,Conductor,Moto,Masculino,23,,1.0,2016-06-11 00:00:00,15,Calle,"Magari?os Cervantes, A.",10.0,-58.49021952,-34.62025108,Cargas,Altura
+2016-0074,Conductor,Auto,Masculino,60,,1.0,2016-06-12 00:00:00,6,Autopista,"Paz, Gral. Av.",8.0,-58.49896559,-34.67732118,Auto,Cruce
 2016-0075,Peaton,Peaton,Masculino,42,0.0,1.0,2016-06-12 00:00:00,23,Autopista,Autopista Dellepiane Luis Tte. Gral.,8.0,-58.47461076,-34.66874679,Auto,Cruce
 2016-0076,Peaton,Peaton,Femenino,53,0.0,1.0,2016-06-13 00:00:00,16,Avenida,San Martin Av.,15.0,-58.46210891,-34.60356211,Pasajeros,Cruce
-2016-0077,Peaton,Peaton,Femenino,Sd,Sd,1.0,2016-06-13 00:00:00,21,Avenida,"Peron, Juan Domingo, Tte. General",1.0,-58.37027770,-34.60536123,Pasajeros,Cruce
-2016-0078,Conductor,Moto,Masculino,30,Sd,1.0,2016-06-13 00:00:00,23,Avenida,Belgrano Av.,3.0,-58.40491455,-34.61463830,Moto,Cruce
-2016-0079,Conductor,Auto,Femenino,51,Sd,1.0,2016-06-16 00:00:00,17,Avenida,del Libertador Av.,13.0,-58.45504154,-34.54864492,Auto,Cruce
-2016-0080,Conductor,Auto,Masculino,60,Sd,1.0,2016-06-18 00:00:00,6,Gral Paz,"Paz, Gral. Av.",9.0,-58.52927982,-34.63931752,Sd,Cruce
-2016-0081,Conductor,Moto,Masculino,40,Sd,1.0,2016-06-22 00:00:00,7,Avenida,"Larralde, Crisologo Av.",12.0,-58.48721060,-34.55904606,Auto,Cruce
+2016-0077,Peaton,Peaton,Femenino,,,1.0,2016-06-13 00:00:00,21,Avenida,"Peron, Juan Domingo, Tte. General",1.0,-58.37027770,-34.60536123,Pasajeros,Cruce
+2016-0078,Conductor,Moto,Masculino,30,,1.0,2016-06-13 00:00:00,23,Avenida,Belgrano Av.,3.0,-58.40491455,-34.61463830,Moto,Cruce
+2016-0079,Conductor,Auto,Femenino,51,,1.0,2016-06-16 00:00:00,17,Avenida,del Libertador Av.,13.0,-58.45504154,-34.54864492,Auto,Cruce
+2016-0080,Conductor,Auto,Masculino,60,,1.0,2016-06-18 00:00:00,6,Autopista,"Paz, Gral. Av.",9.0,-58.52927982,-34.63931752,,Cruce
+2016-0081,Conductor,Moto,Masculino,40,,1.0,2016-06-22 00:00:00,7,Avenida,"Larralde, Crisologo Av.",12.0,-58.48721060,-34.55904606,Auto,Cruce
 2016-0082,Peaton,Peaton,Masculino,87,8.0,1.0,2016-06-27 00:00:00,18,Avenida,la Plata Av.,4.0,-58.42273092,-34.64228803,Auto,Altura
 2016-0083,Peaton,Peaton,Femenino,76,1.0,1.0,2016-06-28 00:00:00,20,Avenida,"Alberdi, Juan Bautista Av.",6.0,-58.44788671,-34.62539009,Moto,Cruce
 2016-0084,Peaton,Peaton,Masculino,57,9.0,1.0,2016-06-29 00:00:00,22,Calle,"Pellegrini, Carlos",1.0,-58.38110563,-34.60135531,Pasajeros,Cruce
-2016-0085,Sd,Moto,Masculino,Sd,Sd,1.0,2016-06-29 00:00:00,22,Avenida,"Rabanal, Francisco, Intendente Av.",4.0,-58.42378834,-34.65734100,otro,Cruce
+2016-0085,,Moto,Masculino,,,1.0,2016-06-29 00:00:00,22,Avenida,"Rabanal, Francisco, Intendente Av.",4.0,-58.42378834,-34.65734100,otro,Cruce
 2016-0086,Peaton,Peaton,Masculino,75,1.0,1.0,2016-06-30 00:00:00,16,Avenida,Olivera Av.,10.0,-58.48727942,-34.63652467,Pasajeros,Cruce
-2016-0087,Conductor,Moto,Masculino,23,0.0,1.0,2016-07-02 00:00:00,0,Autopista,Autopista 1 Sur Presidente Arturo Frondizi,1.0,-58.37864583,-34.62907067,Objeto Fijo,Sd
+2016-0087,Conductor,Moto,Masculino,23,0.0,1.0,2016-07-02 00:00:00,0,Autopista,Autopista 1 Sur Presidente Arturo Frondizi,1.0,-58.37864583,-34.62907067,Objeto Fijo,
 2016-0088,Peaton,Peaton,Femenino,70,3.0,1.0,2016-07-11 00:00:00,15,Calle,Ceretti,12.0,-58.50151750,-34.56767549,Auto,Cruce
 2016-0089,Peaton,Peaton,Masculino,35,0.0,1.0,2016-07-14 00:00:00,6,Autopista,"Lugones, Leopoldo Av.",13.0,-58.43233425,-34.55185825,Auto,Cruce
 2016-0090,Peaton,Peaton,Masculino,60,1.0,1.0,2016-07-14 00:00:00,22,Avenida,"Salguero, Jeronimo",5.0,-58.41971993,-34.61112240,Pasajeros,Cruce
-2016-0092,Conductor,Moto,Masculino,24,0.0,1.0,2016-07-15 00:00:00,11,Gral Paz,"Paz, Gral. Av.",13.0,-58.46743471,-34.53476874,Cargas,Cruce
+2016-0092,Conductor,Moto,Masculino,24,0.0,1.0,2016-07-15 00:00:00,11,Autopista,"Paz, Gral. Av.",13.0,-58.46743471,-34.53476874,Cargas,Cruce
 2016-0093,Conductor,Auto,Masculino,35,2.0,1.0,2016-07-17 00:00:00,3,Avenida,"Alberdi, Juan Bautista Av.",6.0,-58.44362126,-34.62301748,Auto,Cruce
 2016-0095,Conductor,Moto,Masculino,29,0.0,1.0,2016-07-23 00:00:00,6,Avenida,Mercedes,11.0,-58.51713095,-34.59546519,Auto,Cruce
-2016-0096,Conductor,Moto,Masculino,Sd,Sd,1.0,2016-07-25 00:00:00,7,Autopista,Autopista Dellepiane Luis Tte. Gral.,8.0,-58.47433193007387,-34.66684950051973,Cargas,Sd
+2016-0096,Conductor,Moto,Masculino,,,1.0,2016-07-25 00:00:00,7,Autopista,Autopista Dellepiane Luis Tte. Gral.,8.0,-58.47433193007387,-34.66684950051973,Cargas,
 2016-0097,Peaton,Peaton,Masculino,80,17.0,1.0,2016-07-26 00:00:00,18,Calle,Solis,1.0,-58.39038605,-34.61562810,Auto,Cruce
-2016-0098,Conductor,Moto,Femenino,43,Sd,1.0,2016-07-27 00:00:00,16,Avenida,San Juan Av.,3.0,-58.40042405,-34.62356174,Cargas,Cruce
-2016-0099,Conductor,Cargas,Masculino,45,Sd,1.0,2016-07-29 00:00:00,16,Gral Paz,Mosconi General Av.,11.0,-58.52340614,-34.59798754,Cargas,Cruce
-2016-0100,Conductor,Moto,Masculino,57,0.0,1.0,2016-08-03 00:00:00,23,Gral Paz,"Paz, Gral. Av.",12.0,-58.49491054,-34.54795581,Objeto Fijo,Cruce
-2016-0101,Sd,Sd,Masculino,67,Sd,1.0,2016-08-07 00:00:00,19,Gral Paz,"Paz, Gral. Av.",9.0,-58.52932872,-34.65014993,Sd,Cruce
-2016-0102,Conductor,Moto,Masculino,29,Sd,1.0,2016-08-10 00:00:00,23,Avenida,"Peron, Eva Av.",9.0,-58.50011639,-34.67316502,Cargas,Cruce
+2016-0098,Conductor,Moto,Femenino,43,,1.0,2016-07-27 00:00:00,16,Avenida,San Juan Av.,3.0,-58.40042405,-34.62356174,Cargas,Cruce
+2016-0099,Conductor,Cargas,Masculino,45,,1.0,2016-07-29 00:00:00,16,Autopista,Mosconi General Av.,11.0,-58.52340614,-34.59798754,Cargas,Cruce
+2016-0100,Conductor,Moto,Masculino,57,0.0,1.0,2016-08-03 00:00:00,23,Autopista,"Paz, Gral. Av.",12.0,-58.49491054,-34.54795581,Objeto Fijo,Cruce
+2016-0101,,,Masculino,67,,1.0,2016-08-07 00:00:00,19,Autopista,"Paz, Gral. Av.",9.0,-58.52932872,-34.65014993,,Cruce
+2016-0102,Conductor,Moto,Masculino,29,,1.0,2016-08-10 00:00:00,23,Avenida,"Peron, Eva Av.",9.0,-58.50011639,-34.67316502,Cargas,Cruce
 2016-0104,Conductor,Moto,Masculino,21,1.0,1.0,2016-08-14 00:00:00,21,Avenida,Zinny,9.0,-58.46635001,-34.65624369,Pasajeros,Cruce
 2016-0105,Peaton,Peaton,Masculino,19,9.0,1.0,2016-08-17 00:00:00,0,Avenida,"Lacroze, Federico Av.",15.0,-58.45343236,-34.58435809,Pasajeros,Cruce
-2016-0106,Peaton,Peaton,Masculino,38,Sd,1.0,2016-08-19 00:00:00,21,Avenida,"Pellegrini, Carlos",1.0,-58.38090932,-34.58927731,Pasajeros,Cruce
-2016-0107,Conductor,Moto,Masculino,21,Sd,1.0,2016-08-20 00:00:00,8,Autopista,Autopista 1 Sur Presidente Arturo Frondizi,4.0,-58.37157668,-34.65429986,Auto,Sd
+2016-0106,Peaton,Peaton,Masculino,38,,1.0,2016-08-19 00:00:00,21,Avenida,"Pellegrini, Carlos",1.0,-58.38090932,-34.58927731,Pasajeros,Cruce
+2016-0107,Conductor,Moto,Masculino,21,,1.0,2016-08-20 00:00:00,8,Autopista,Autopista 1 Sur Presidente Arturo Frondizi,4.0,-58.37157668,-34.65429986,Auto,
 2016-0109,Conductor,Auto,Femenino,53,0.0,1.0,2016-08-24 00:00:00,5,Autopista,Autopista Perito Moreno,9.0,-58.52280139,-34.63659934,Objeto Fijo,Cruce
-2016-0110,Peaton,Peaton,Masculino,57,Sd,1.0,2016-08-24 00:00:00,20,Avenida,"Alberdi, Juan Bautista Av.",9.0,-58.51232237,-34.65903530,Sd,Cruce
+2016-0110,Peaton,Peaton,Masculino,57,,1.0,2016-08-24 00:00:00,20,Avenida,"Alberdi, Juan Bautista Av.",9.0,-58.51232237,-34.65903530,,Cruce
 2016-0111,Conductor,Moto,Masculino,27,0.0,1.0,2016-08-25 00:00:00,9,Autopista,Lugones,15.0,-58.47461905,-34.57663634,Cargas,Cruce
 2016-0112,Conductor,Moto,Masculino,24,0.0,1.0,2016-08-27 00:00:00,4,Autopista,Autopista 25 de Mayo,1.0,-58.38268809,-34.62282019,Objeto Fijo,Cruce
-2016-0113,Peaton,Peaton,Femenino,60,Sd,1.0,2016-08-27 00:00:00,16,Avenida,"Alberdi, Juan Bautista Av.",9.0,-58.49603546,-34.64564271,Pasajeros,Cruce
+2016-0113,Peaton,Peaton,Femenino,60,,1.0,2016-08-27 00:00:00,16,Avenida,"Alberdi, Juan Bautista Av.",9.0,-58.49603546,-34.64564271,Pasajeros,Cruce
 2016-0114,Ciclista,Bicicleta,Femenino,55,0.0,1.0,2016-08-31 00:00:00,11,Calle,"Salguero, Jeronimo",14.0,-58.41848605,-34.59394733,Cargas,Altura
-2016-0115,Sd,Sd,Masculino,Sd,Sd,1.0,2016-09-02 00:00:00,11,Calle,Arias,12.0,-58.48935041,-34.54917673,Cargas,Cruce
+2016-0115,,,Masculino,,,1.0,2016-09-02 00:00:00,11,Calle,Arias,12.0,-58.48935041,-34.54917673,Cargas,Cruce
 2016-0116,Conductor,Moto,Masculino,30,0.0,1.0,2016-09-02 00:00:00,20,Avenida,27 de Febrero Av.,8.0,-58.44451316,-34.68475866,Auto,Cruce
-2016-0117,Conductor,Auto,Masculino,43,Sd,1.0,2016-09-03 00:00:00,15,Avenida,del Libertador Av.,14.0,-58.39936478,-34.58271474,Auto,Cruce
-2016-0118,Conductor,Auto,Masculino,27,0.0,1.0,2016-09-04 00:00:00,3,Autopista,Autopista 1 Sur Presidente Arturo Frondizi,1.0,-58.37936704,-34.62694503,Auto,Sd
-2016-0119,Pasajero_acompañante,Sd,Femenino,Sd,Sd,1.0,2016-09-04 00:00:00,6,Avenida,"Larralde, Crisologo Av.",12.0,-58.49659234,-34.56353635,Sd,Cruce
+2016-0117,Conductor,Auto,Masculino,43,,1.0,2016-09-03 00:00:00,15,Avenida,del Libertador Av.,14.0,-58.39936478,-34.58271474,Auto,Cruce
+2016-0118,Conductor,Auto,Masculino,27,0.0,1.0,2016-09-04 00:00:00,3,Autopista,Autopista 1 Sur Presidente Arturo Frondizi,1.0,-58.37936704,-34.62694503,Auto,
+2016-0119,Pasajero_acompañante,,Femenino,,,1.0,2016-09-04 00:00:00,6,Avenida,"Larralde, Crisologo Av.",12.0,-58.49659234,-34.56353635,,Cruce
 2016-0122,Ciclista,Bicicleta,Masculino,49,0.0,1.0,2016-09-13 00:00:00,7,Avenida,"Peron, Eva Av.",9.0,-58.47256391,-34.65194557,Pasajeros,Altura
-2016-0123,Conductor,Moto,Femenino,58,Sd,1.0,2016-09-14 00:00:00,9,Avenida,Asamblea Av.,7.0,-58.45130953,-34.64053676,Auto,Cruce
-2016-0124,Peaton,Peaton,Masculino,67,Sd,1.0,2016-09-16 00:00:00,15,Avenida,Rivadavia Av.,7.0,-58.46271207,-34.62884871,Pasajeros,Cruce
-2016-0125,Conductor,Moto,Masculino,30,Sd,1.0,2016-09-17 00:00:00,12,Autopista,Autopista Perito Moreno,10.0,-58.49020869,-34.64243791,Moto,Cruce
-2016-0126,Conductor,Auto,Masculino,37,Sd,2.0,2016-09-18 00:00:00,22,Calle,Irigoyen,10.0,-58.52572109,-34.62125906,Cargas,Cruce
-2016-0126,Pasajero_acompañante,Auto,Masculino,60,Sd,2.0,2016-09-18 00:00:00,22,Calle,Irigoyen,10.0,-58.52572109,-34.62125906,Cargas,Cruce
-2016-0127,Peaton,Peaton,Masculino,50,Sd,1.0,2016-09-24 00:00:00,10,Avenida,"Acosta, Mariano",8.0,-58.44094791,-34.66677111,Pasajeros,Cruce
+2016-0123,Conductor,Moto,Femenino,58,,1.0,2016-09-14 00:00:00,9,Avenida,Asamblea Av.,7.0,-58.45130953,-34.64053676,Auto,Cruce
+2016-0124,Peaton,Peaton,Masculino,67,,1.0,2016-09-16 00:00:00,15,Avenida,Rivadavia Av.,7.0,-58.46271207,-34.62884871,Pasajeros,Cruce
+2016-0125,Conductor,Moto,Masculino,30,,1.0,2016-09-17 00:00:00,12,Autopista,Autopista Perito Moreno,10.0,-58.49020869,-34.64243791,Moto,Cruce
+2016-0126,Conductor,Auto,Masculino,37,,2.0,2016-09-18 00:00:00,22,Calle,Irigoyen,10.0,-58.52572109,-34.62125906,Cargas,Cruce
+2016-0126,Pasajero_acompañante,Auto,Masculino,60,,2.0,2016-09-18 00:00:00,22,Calle,Irigoyen,10.0,-58.52572109,-34.62125906,Cargas,Cruce
+2016-0127,Peaton,Peaton,Masculino,50,,1.0,2016-09-24 00:00:00,10,Avenida,"Acosta, Mariano",8.0,-58.44094791,-34.66677111,Pasajeros,Cruce
 2016-0128,Peaton,Peaton,Femenino,81,0.0,1.0,2016-10-02 00:00:00,11,Avenida,Castro,5.0,-58.41914024,-34.63053890,Pasajeros,Cruce
-2016-0130,Conductor,Moto,Masculino,29,0.0,1.0,2016-10-04 00:00:00,12,Autopista,Autopista 1 Sur Presidente Arturo Frondizi,1.0,-58.37910942,-34.62764717,Cargas,Sd
-2016-0131,Peaton,Peaton,Masculino,35,Sd,1.0,2016-10-09 00:00:00,19,Calle,Mirave,4.0,-58.39871183,-34.64539318,Auto,Altura
+2016-0130,Conductor,Moto,Masculino,29,0.0,1.0,2016-10-04 00:00:00,12,Autopista,Autopista 1 Sur Presidente Arturo Frondizi,1.0,-58.37910942,-34.62764717,Cargas,
+2016-0131,Peaton,Peaton,Masculino,35,,1.0,2016-10-09 00:00:00,19,Calle,Mirave,4.0,-58.39871183,-34.64539318,Auto,Altura
 2016-0132,Pasajero_acompañante,Auto,Masculino,30,0.0,1.0,2016-10-10 00:00:00,2,Avenida,San Juan Av.,3.0,-58.41036975,-34.62477021,Pasajeros,Cruce
 2016-0133,Conductor,Moto,Masculino,41,11.0,1.0,2016-10-14 00:00:00,0,Avenida,las Heras General Av.,14.0,-58.40204698,-34.58342690,Auto,Cruce
 2016-0134,Conductor,Moto,Masculino,25,0.0,1.0,2016-10-23 00:00:00,5,Avenida,Piedra Buena Av.,8.0,-58.48935287,-34.67648597,Objeto Fijo,Cruce
-2016-0135,Peaton,Peaton,Masculino,29,1.0,1.0,2016-10-24 00:00:00,5,Avenida,"Figueroa Alcorta, Pres. Av.",14.0,-58.42260225,-34.56403694,Sd,Cruce
-2016-0136,Conductor,Moto,Sd,Sd,Sd,1.0,2016-10-25 00:00:00,0,Autopista,Autopista Buenos Aires - la Plata,4.0,-58.42444444444444,-34.650277777777774,Cargas,Sd
-2016-0137,Conductor,Moto,Masculino,30,Sd,1.0,2016-10-25 00:00:00,0,Avenida,San Martin Av.,11.0,-58.51537091,-34.59035925,Moto,Cruce
-2016-0138,Ciclista,Bicicleta,Femenino,33,Sd,1.0,2016-10-27 00:00:00,20,Avenida,Cabildo Av.,13.0,-58.45909670,-34.55922742,Cargas,Cruce
-2016-0139,Pasajero_acompañante,Moto,Femenino,35,Sd,1.0,2016-10-28 00:00:00,23,Avenida,"Figueroa Alcorta, Pres. Av.",14.0,-58.42008769,-34.56539579,Moto,Cruce
-2016-0140,Pasajero_acompañante,Pasajeros,Masculino,20,Sd,1.0,2016-10-31 00:00:00,2,Avenida,Juramento Av.,13.0,-58.45566399,-34.56147293,Pasajeros,Cruce
+2016-0135,Peaton,Peaton,Masculino,29,1.0,1.0,2016-10-24 00:00:00,5,Avenida,"Figueroa Alcorta, Pres. Av.",14.0,-58.42260225,-34.56403694,,Cruce
+2016-0136,Conductor,Moto,,,,1.0,2016-10-25 00:00:00,0,Autopista,Autopista Buenos Aires - la Plata,4.0,-58.42444444444444,-34.650277777777774,Cargas,
+2016-0137,Conductor,Moto,Masculino,30,,1.0,2016-10-25 00:00:00,0,Avenida,San Martin Av.,11.0,-58.51537091,-34.59035925,Moto,Cruce
+2016-0138,Ciclista,Bicicleta,Femenino,33,,1.0,2016-10-27 00:00:00,20,Avenida,Cabildo Av.,13.0,-58.45909670,-34.55922742,Cargas,Cruce
+2016-0139,Pasajero_acompañante,Moto,Femenino,35,,1.0,2016-10-28 00:00:00,23,Avenida,"Figueroa Alcorta, Pres. Av.",14.0,-58.42008769,-34.56539579,Moto,Cruce
+2016-0140,Pasajero_acompañante,Pasajeros,Masculino,20,,1.0,2016-10-31 00:00:00,2,Avenida,Juramento Av.,13.0,-58.45566399,-34.56147293,Pasajeros,Cruce
 2016-0142,Conductor,Moto,Masculino,46,0.0,1.0,2016-11-05 00:00:00,23,Avenida,del Libertador Av.,1.0,-58.37533517,-34.59276462,Pasajeros,Cruce
-2016-0143,Conductor,Moto,Masculino,35,Sd,1.0,2016-11-06 00:00:00,4,Avenida,27 de Febrero Av.,8.0,-58.44451316,-34.68475866,Sd,Cruce
-2016-0144,Peaton,Peaton,Masculino,83,Sd,1.0,2016-11-07 00:00:00,12,Avenida,"Brown, Alte. Av.",4.0,-58.35975012,-34.63343907,Pasajeros,Altura
+2016-0143,Conductor,Moto,Masculino,35,,1.0,2016-11-06 00:00:00,4,Avenida,27 de Febrero Av.,8.0,-58.44451316,-34.68475866,,Cruce
+2016-0144,Peaton,Peaton,Masculino,83,,1.0,2016-11-07 00:00:00,12,Avenida,"Brown, Alte. Av.",4.0,-58.35975012,-34.63343907,Pasajeros,Altura
 2016-0145,Conductor,Moto,Masculino,39,0.0,1.0,2016-11-07 00:00:00,20,Avenida,del Libertador Av.,13.0,-58.44523595,-34.55953855,Auto,Cruce
-2016-0146,Peaton,Peaton,Femenino,29,Sd,1.0,2016-11-09 00:00:00,20,Avenida,Pichincha Av.,4.0,-58.39626094,-34.63036565,Pasajeros,Cruce
+2016-0146,Peaton,Peaton,Femenino,29,,1.0,2016-11-09 00:00:00,20,Avenida,Pichincha Av.,4.0,-58.39626094,-34.63036565,Pasajeros,Cruce
 2016-0147,Pasajero_acompañante,Auto,Masculino,55,0.0,1.0,2016-11-16 00:00:00,21,Avenida,Independencia Av.,1.0,-58.38896772,-34.61799615,Pasajeros,Cruce
-2016-0148,Conductor,Moto,Masculino,Sd,Sd,1.0,2016-11-16 00:00:00,22,Avenida,Garmendia Av.,15.0,-58.46536113,-34.59484504,Moto,Altura
+2016-0148,Conductor,Moto,Masculino,,,1.0,2016-11-16 00:00:00,22,Avenida,Garmendia Av.,15.0,-58.46536113,-34.59484504,Moto,Altura
 2016-0150,Pasajero_acompañante,Cargas,Masculino,41,0.0,1.0,2016-11-18 00:00:00,18,Avenida,"Alcorta, Amancio Av.",4.0,-58.40879146,-34.65273216,Cargas,Cruce
-2016-0151,Peaton,Peaton,Sd,Sd,Sd,Sd,Sd,Sd,Sd,Sd,Sd,.,.,Sd,Sd
 2016-0152,Conductor,Moto,Masculino,42,1.0,1.0,2016-11-23 00:00:00,21,Avenida,"Moreno, Perito Av.",7.0,-58.46451841,-34.64991946,Auto,Cruce
 2016-0153,Peaton,Peaton,Femenino,83,0.0,1.0,2016-11-25 00:00:00,15,Avenida,Araoz,15.0,-58.42917090,-34.59485488,Moto,Cruce
-2016-0154,Conductor,Moto,Masculino,38,Sd,1.0,2016-11-26 00:00:00,14,Gral Paz,"Paz, Gral. Av.",8.0,-58.49007772,-34.68251141,Moto,Altura
-2016-0155,Peaton,Peaton,Femenino,29,Sd,1.0,2016-11-26 00:00:00,16,Calle,Madero,10.0,-58.52756365,-34.62772274,Auto,Altura
+2016-0154,Conductor,Moto,Masculino,38,,1.0,2016-11-26 00:00:00,14,Autopista,"Paz, Gral. Av.",8.0,-58.49007772,-34.68251141,Moto,Altura
+2016-0155,Peaton,Peaton,Femenino,29,,1.0,2016-11-26 00:00:00,16,Calle,Madero,10.0,-58.52756365,-34.62772274,Auto,Altura
 2016-0156,Conductor,Moto,Masculino,23,4.0,1.0,2016-11-26 00:00:00,19,Avenida,Independencia Av.,3.0,-58.40638983,-34.61943202,Pasajeros,Cruce
-2016-0157,Conductor,Moto,Masculino,23,Sd,1.0,2016-12-03 00:00:00,6,Avenida,"Justo, Juan B. Av.",11.0,-58.47576807,-34.61740997,Moto,Altura
-2016-0159,Conductor,Auto,Masculino,23,Sd,1.0,2016-12-04 00:00:00,7,Avenida,27 de Febrero Av.,8.0,-58.44451316,-34.68475866,Sd,Cruce
-2016-0160,Conductor,Cargas,Masculino,29,0.0,1.0,2016-12-06 00:00:00,5,Autopista,Autopista Perito Moreno,9.0,-58.51927194,-34.63635787,Objeto Fijo,Sd
+2016-0157,Conductor,Moto,Masculino,23,,1.0,2016-12-03 00:00:00,6,Avenida,"Justo, Juan B. Av.",11.0,-58.47576807,-34.61740997,Moto,Altura
+2016-0159,Conductor,Auto,Masculino,23,,1.0,2016-12-04 00:00:00,7,Avenida,27 de Febrero Av.,8.0,-58.44451316,-34.68475866,,Cruce
+2016-0160,Conductor,Cargas,Masculino,29,0.0,1.0,2016-12-06 00:00:00,5,Autopista,Autopista Perito Moreno,9.0,-58.51927194,-34.63635787,Objeto Fijo,
 2016-0161,Peaton,Peaton,Masculino,50,0.0,1.0,2016-12-06 00:00:00,7,Avenida,Santa Fe Av.,14.0,-58.42525456,-34.57866344,Pasajeros,Cruce
 2016-0162,Peaton,Peaton,Masculino,38,25.0,1.0,2016-12-07 00:00:00,5,Avenida,"Lacroze, Federico Av.",15.0,-58.45396573,-34.58518167,Auto,Cruce
-2016-0163,Conductor,Moto,Masculino,23,Sd,1.0,2016-12-10 00:00:00,7,Gral Paz,"Paz, Gral. Av.",11.0,-58.52340614,-34.59798754,Auto,Cruce
-2016-0164,Conductor,Auto,Masculino,29,Sd,1.0,2016-12-11 00:00:00,6,Avenida,la Plata Av.,4.0,-58.42323628,-34.64119105,Auto,Cruce
-2016-0165,Ciclista,Bicicleta,Masculino,37,Sd,1.0,2016-12-12 00:00:00,8,Avenida,"Garcia, Martin Av.",4.0,-58.36926144,-34.62841919,Pasajeros,Altura
+2016-0163,Conductor,Moto,Masculino,23,,1.0,2016-12-10 00:00:00,7,Autopista,"Paz, Gral. Av.",11.0,-58.52340614,-34.59798754,Auto,Cruce
+2016-0164,Conductor,Auto,Masculino,29,,1.0,2016-12-11 00:00:00,6,Avenida,la Plata Av.,4.0,-58.42323628,-34.64119105,Auto,Cruce
+2016-0165,Ciclista,Bicicleta,Masculino,37,,1.0,2016-12-12 00:00:00,8,Avenida,"Garcia, Martin Av.",4.0,-58.36926144,-34.62841919,Pasajeros,Altura
 2016-0168,Conductor,Moto,Masculino,43,0.0,1.0,2016-12-13 00:00:00,10,Avenida,la Plata Av.,4.0,-58.42323628,-34.64119105,Auto,Cruce
 2016-0169,Conductor,Moto,Masculino,24,1.0,1.0,2016-12-15 00:00:00,15,Avenida,Nu?ez,12.0,-58.47935434,-34.55676497,Pasajeros,Cruce
-2016-0170,Pasajero_acompañante,Moto,Masculino,21,0.0,1.0,2016-12-19 00:00:00,17,Gral Paz,"Paz, Gral. Av.",12.0,-58.50598256,-34.56379980,Auto,Altura
-2016-0171,Conductor,Moto,Sd,Sd,Sd,1.0,2016-12-25 00:00:00,19,Autopista,"Huergo, Ing. Av.",1.0,-58.36607137,-34.62150748,Moto,Cruce
+2016-0170,Pasajero_acompañante,Moto,Masculino,21,0.0,1.0,2016-12-19 00:00:00,17,Autopista,"Paz, Gral. Av.",12.0,-58.50598256,-34.56379980,Auto,Altura
+2016-0171,Conductor,Moto,,,,1.0,2016-12-25 00:00:00,19,Autopista,"Huergo, Ing. Av.",1.0,-58.36607137,-34.62150748,Moto,Cruce
 2016-0172,Conductor,Moto,Masculino,38,0.0,1.0,2016-12-26 00:00:00,8,Avenida,"Garay, Juan de Av.",5.0,-58.41918902,-34.63174259,Cargas,Cruce
-2016-0173,Conductor,Moto,Masculino,35,Sd,1.0,2016-12-26 00:00:00,19,Avenida,Directorio Av.,7.0,-58.46749188,-34.63551751,Cargas,Cruce
-2016-0174,Sd,Sd,Sd,Sd,Sd,1.0,2016-12-27 00:00:00,0,Autopista,Autopista 25 de Mayo,0.0,.,.,Sd,Sd
-2016-0175,Peaton,Peaton,Femenino,Sd,Sd,1.0,2016-12-27 00:00:00,8,Calle,"Falcon, Ramon L.,cnel.",7.0,-58.46064174,-34.62960517,Bicicleta,Cruce
-2016-0176,Conductor,Moto,Masculino,28,Sd,1.0,2016-12-28 00:00:00,1,Avenida,Belgrano Av.,1.0,-58.36956186,-34.61232875,Pasajeros,Cruce
-2016-0177,Peaton,Peaton,Femenino,27,Sd,1.0,2016-12-29 00:00:00,4,Calle,Arenales,14.0,-58.40966671,-34.58788235,Auto,Altura
-2016-0178,Peaton,Peaton,Femenino,7,Sd,1.0,2016-12-30 00:00:00,16,Calle,Republica Bolivariana de Venezuela,3.0,-58.40288226,-34.61544091,Multiple,Cruce
+2016-0173,Conductor,Moto,Masculino,35,,1.0,2016-12-26 00:00:00,19,Avenida,Directorio Av.,7.0,-58.46749188,-34.63551751,Cargas,Cruce
+2016-0175,Peaton,Peaton,Femenino,,,1.0,2016-12-27 00:00:00,8,Calle,"Falcon, Ramon L.,cnel.",7.0,-58.46064174,-34.62960517,Bicicleta,Cruce
+2016-0176,Conductor,Moto,Masculino,28,,1.0,2016-12-28 00:00:00,1,Avenida,Belgrano Av.,1.0,-58.36956186,-34.61232875,Pasajeros,Cruce
+2016-0177,Peaton,Peaton,Femenino,27,,1.0,2016-12-29 00:00:00,4,Calle,Arenales,14.0,-58.40966671,-34.58788235,Auto,Altura
+2016-0178,Peaton,Peaton,Femenino,7,,1.0,2016-12-30 00:00:00,16,Calle,Republica Bolivariana de Venezuela,3.0,-58.40288226,-34.61544091,Multiple,Cruce
 2017-0001,Conductor,Moto,Masculino,18,0.0,1.0,2017-01-02 00:00:00,1,Avenida,"Justo, Juan B. Av.",11.0,-58.46594230,-34.61028571,Cargas,Cruce
 2017-0003,Pasajero_acompañante,Cargas,Masculino,33,0.0,1.0,2017-01-05 00:00:00,3,Avenida,Olavarria,4.0,-58.38957669,-34.64410277,Cargas,Cruce
 2017-0007,Peaton,Peaton,Masculino,48,0.0,1.0,2017-01-11 00:00:00,17,Calle,Lima,1.0,-58.38161660,-34.61529543,Multiple,Cruce
 2017-0008,Conductor,Moto,Masculino,29,0.0,1.0,2017-01-16 00:00:00,0,Calle,"Cabrera, Jose A.",14.0,-58.43917004,-34.58494351,Pasajeros,Cruce
-2017-0009,Conductor,Moto,Masculino,36,0.0,1.0,2017-01-16 00:00:00,13,Autopista,Autopista 25 de Mayo,5.0,-58.41595919,-34.62743346,Cargas,Sd
+2017-0009,Conductor,Moto,Masculino,36,0.0,1.0,2017-01-16 00:00:00,13,Autopista,Autopista 25 de Mayo,5.0,-58.41595919,-34.62743346,Cargas,
 2017-0010,Conductor,Moto,Masculino,23,0.0,1.0,2017-01-16 00:00:00,16,Avenida,Directorio Av.,6.0,-58.43564880,-34.62828656,Auto,Cruce
-2017-0011,Pasajero_acompañante,Moto,Femenino,29,0.0,1.0,2017-01-22 00:00:00,2,Gral Paz,"Paz, Gral. Av.",12.0,-58.50073810,-34.54979510,Objeto Fijo,Cruce
+2017-0011,Pasajero_acompañante,Moto,Femenino,29,0.0,1.0,2017-01-22 00:00:00,2,Autopista,"Paz, Gral. Av.",12.0,-58.50073810,-34.54979510,Objeto Fijo,Cruce
 2017-0012,Conductor,Moto,Masculino,30,0.0,1.0,2017-01-24 00:00:00,14,Calle,Traful,4.0,-58.40969005,-34.65055290,Cargas,Cruce
 2017-0013,Peaton,Peaton,Masculino,4,0.0,1.0,2017-01-27 00:00:00,7,Avenida,"Iriarte, Gral. Av.",4.0,-58.38972622,-34.65098981,Cargas,Altura
 2017-0014,Pasajero_acompañante,Moto,Femenino,22,0.0,1.0,2017-01-28 00:00:00,8,Avenida,Donado,12.0,-58.49185972,-34.55046754,Multiple,Cruce
 2017-0015,Peaton,Peaton,Masculino,82,19.0,1.0,2017-02-02 00:00:00,15,Avenida,Cordoba Av.,2.0,-58.39293417,-34.59963642,Auto,Cruce
-2017-0016,Conductor,Moto,Masculino,27,1.0,1.0,2017-02-03 00:00:00,5,Autopista,Autopista 25 de Mayo,1.0,-58.38099494,-34.62288231,Cargas,Sd
+2017-0016,Conductor,Moto,Masculino,27,1.0,1.0,2017-02-03 00:00:00,5,Autopista,Autopista 25 de Mayo,1.0,-58.38099494,-34.62288231,Cargas,
 2017-0017,Conductor,Moto,Masculino,32,0.0,1.0,2017-02-06 00:00:00,8,Avenida,"Justo, Juan B. Av.",14.0,-58.42901200,-34.58095431,Auto,Cruce
-2017-0018,Conductor,Moto,Masculino,30,0.0,1.0,2017-02-09 00:00:00,7,Gral Paz,"Paz, Gral. Av.",9.0,-58.50877521,-34.66977709,Auto,Cruce
+2017-0018,Conductor,Moto,Masculino,30,0.0,1.0,2017-02-09 00:00:00,7,Autopista,"Paz, Gral. Av.",9.0,-58.50877521,-34.66977709,Auto,Cruce
 2017-0021,Conductor,Moto,Masculino,43,0.0,1.0,2017-02-18 00:00:00,5,Calle,Sarmiento,1.0,-58.38362373,-34.60509972,Pasajeros,Cruce
 2017-0024,Peaton,Peaton,Masculino,39,0.0,1.0,2017-02-23 00:00:00,20,Avenida,Rivadavia Av.,7.0,-58.46589308,-34.62955795,Pasajeros,Altura
-2017-0025,Conductor,Moto,Masculino,23,0.0,1.0,2017-02-24 00:00:00,17,Avenida,"Fernandez de la Cruz, F., Gral. Av.",7.0,-58.43614426,-34.65424640,Sd,Cruce
+2017-0025,Conductor,Moto,Masculino,23,0.0,1.0,2017-02-24 00:00:00,17,Avenida,"Fernandez de la Cruz, F., Gral. Av.",7.0,-58.43614426,-34.65424640,,Cruce
 2017-0026,Pasajero_acompañante,Auto,Femenino,23,0.0,2.0,2017-02-26 00:00:00,5,Avenida,"Moreno, Perito Av.",4.0,-58.41842777,-34.64979057,Objeto Fijo,Cruce
 2017-0026,Conductor,Auto,Masculino,19,0.0,2.0,2017-02-26 00:00:00,5,Avenida,"Moreno, Perito Av.",4.0,-58.41842777,-34.64979057,Objeto Fijo,Cruce
-2017-0027,Peaton,Peaton,Masculino,Sd,0.0,1.0,2017-02-26 00:00:00,21,Avenida,Caseros Av.,1.0,-58.38332245,-34.63193250,Auto,Altura
+2017-0027,Peaton,Peaton,Masculino,,0.0,1.0,2017-02-26 00:00:00,21,Avenida,Caseros Av.,1.0,-58.38332245,-34.63193250,Auto,Altura
 2017-0028,Peaton,Peaton,Masculino,87,0.0,1.0,2017-02-28 00:00:00,9,Avenida,Gaona Av.,6.0,-58.45475488,-34.61196327,Auto,Cruce
-2017-0029,Sd,Sd,Masculino,34,0.0,1.0,2017-03-07 00:00:00,2,Calle,Mozart,9.0,-58.48501341,-34.64742455,Auto,Cruce
+2017-0029,,,Masculino,34,0.0,1.0,2017-03-07 00:00:00,2,Calle,Mozart,9.0,-58.48501341,-34.64742455,Auto,Cruce
 2017-0030,Conductor,Auto,Femenino,27,0.0,1.0,2017-03-07 00:00:00,8,Avenida,Mozart,9.0,-58.47010988,-34.65872088,Pasajeros,Cruce
 2017-0031,Pasajero_acompañante,Auto,Masculino,70,0.0,1.0,2017-03-11 00:00:00,1,Calle,24 de Noviembre,3.0,-58.40997560,-34.62873635,Objeto Fijo,Cruce
-2017-0032,Pasajero_acompañante,Auto,Femenino,40,0.0,1.0,2017-03-12 00:00:00,5,Gral Paz,"Paz, Gral. Av.",8.0,-58.48892175,-34.68359163,Auto,Cruce
-2017-0033,Conductor,Auto,Masculino,28,0.0,1.0,2017-03-12 00:00:00,7,Gral Paz,"Paz, Gral. Av.",11.0,-58.52466448,-34.60325478,Auto,Cruce
+2017-0032,Pasajero_acompañante,Auto,Femenino,40,0.0,1.0,2017-03-12 00:00:00,5,Autopista,"Paz, Gral. Av.",8.0,-58.48892175,-34.68359163,Auto,Cruce
+2017-0033,Conductor,Auto,Masculino,28,0.0,1.0,2017-03-12 00:00:00,7,Autopista,"Paz, Gral. Av.",11.0,-58.52466448,-34.60325478,Auto,Cruce
 2017-0034,Peaton,Peaton,Masculino,43,0.0,1.0,2017-03-13 00:00:00,7,Calle,Godoy Cruz,14.0,-58.42554218,-34.57929036,Auto,Altura
 2017-0035,Conductor,Auto,Masculino,28,0.0,3.0,2017-03-23 00:00:00,5,Avenida,"Achaval Rodriguez, T., Dr. Av.",1.0,-58.35881506,-34.61113641,Objeto Fijo,Cruce
 2017-0035,Pasajero_acompañante,Auto,Masculino,32,0.0,3.0,2017-03-23 00:00:00,5,Avenida,"Achaval Rodriguez, T., Dr. Av.",1.0,-58.35881506,-34.61113641,Objeto Fijo,Cruce
 2017-0035,Pasajero_acompañante,Auto,Masculino,30,0.0,3.0,2017-03-23 00:00:00,5,Avenida,"Achaval Rodriguez, T., Dr. Av.",1.0,-58.35881506,-34.61113641,Objeto Fijo,Cruce
-2017-0036,Pasajero_acompañante,Moto,Femenino,Sd,0.0,2.0,2017-03-29 00:00:00,18,Gral Paz,"Paz, Gral. Av.",12.0,-58.51452347,-34.58159762,Pasajeros,Cruce
-2017-0036,Conductor,Moto,Masculino,20,0.0,2.0,2017-03-29 00:00:00,18,Gral Paz,"Paz, Gral. Av.",12.0,-58.51452347,-34.58159762,Pasajeros,Cruce
+2017-0036,Pasajero_acompañante,Moto,Femenino,,0.0,2.0,2017-03-29 00:00:00,18,Autopista,"Paz, Gral. Av.",12.0,-58.51452347,-34.58159762,Pasajeros,Cruce
+2017-0036,Conductor,Moto,Masculino,20,0.0,2.0,2017-03-29 00:00:00,18,Autopista,"Paz, Gral. Av.",12.0,-58.51452347,-34.58159762,Pasajeros,Cruce
 2017-0037,Conductor,Moto,Masculino,41,0.0,1.0,2017-03-31 00:00:00,3,Avenida,Independencia Av.,1.0,-58.38896772,-34.61799615,Cargas,Cruce
 2017-0038,Conductor,Moto,Femenino,40,0.0,1.0,2017-04-01 00:00:00,19,Avenida,Casta?ares Av.,7.0,-58.44516857,-34.64363363,Auto,Cruce
 2017-0040,Conductor,Auto,Masculino,43,0.0,1.0,2017-04-03 00:00:00,9,Avenida,"Guiraldes, Int.",13.0,-58.43834197,-34.54560369,Multiple,Altura
-2017-0041,Conductor,Moto,Masculino,17,Sd,1.0,2017-04-03 00:00:00,23,Calle,"Fernandez Moreno, Baldomero",7.0,-58.45485084,-34.63531854,Auto,Altura
-2017-0042,Conductor,Moto,Masculino,Sd,0.0,1.0,2017-04-10 00:00:00,9,Gral Paz,"Lugones, Leopoldo Av.",14.0,-58.43055555555555,-34.58888888888889,Cargas,Sd
+2017-0041,Conductor,Moto,Masculino,17,,1.0,2017-04-03 00:00:00,23,Calle,"Fernandez Moreno, Baldomero",7.0,-58.45485084,-34.63531854,Auto,Altura
+2017-0042,Conductor,Moto,Masculino,,0.0,1.0,2017-04-10 00:00:00,9,Autopista,"Lugones, Leopoldo Av.",14.0,-58.43055555555555,-34.58888888888889,Cargas,
 2017-0045,Conductor,Moto,Masculino,21,0.0,1.0,2017-04-14 00:00:00,6,Calle,Nogoya,10.0,-58.52449285,-34.62454175,Objeto Fijo,Altura
 2017-0047,Conductor,Moto,Masculino,37,0.0,1.0,2017-04-23 00:00:00,6,Avenida,Argentina Av.,8.0,-58.46713742,-34.67198790,Auto,Cruce
 2017-0049,Peaton,Peaton,Masculino,22,0.0,1.0,2017-04-27 00:00:00,18,Avenida,"Fernandez de la Cruz, F., Gral. Av.",8.0,-58.43850413,-34.65554754,Pasajeros,Cruce
-2017-0050,Conductor,Moto,Masculino,46,0.0,2.0,2017-04-28 00:00:00,11,Autopista,Autopista Perito Moreno,9.0,-58.483333333333334,-34.65,Cargas,Sd
-2017-0050,Pasajero_acompañante,Moto,Masculino,16,0.0,2.0,2017-04-28 00:00:00,11,Autopista,Autopista Perito Moreno,9.0,-58.483333333333334,-34.65,Cargas,Sd
-2017-0051,Conductor,Auto,Masculino,33,0.0,1.0,2017-05-01 00:00:00,3,Autopista,Autopista Dellepiane Luis Tte. Gral.,7.0,-58.467222222222226,-34.63027777777778,Auto,Sd
-2017-0052,Peaton,Peaton,Femenino,47,0.0,1.0,2017-05-05 00:00:00,3,Gral Paz,"Paz, Gral. Av.",8.0,-58.49413799,-34.68095739,Cargas,Cruce
+2017-0050,Conductor,Moto,Masculino,46,0.0,2.0,2017-04-28 00:00:00,11,Autopista,Autopista Perito Moreno,9.0,-58.483333333333334,-34.65,Cargas,
+2017-0050,Pasajero_acompañante,Moto,Masculino,16,0.0,2.0,2017-04-28 00:00:00,11,Autopista,Autopista Perito Moreno,9.0,-58.483333333333334,-34.65,Cargas,
+2017-0051,Conductor,Auto,Masculino,33,0.0,1.0,2017-05-01 00:00:00,3,Autopista,Autopista Dellepiane Luis Tte. Gral.,7.0,-58.467222222222226,-34.63027777777778,Auto,
+2017-0052,Peaton,Peaton,Femenino,47,0.0,1.0,2017-05-05 00:00:00,3,Autopista,"Paz, Gral. Av.",8.0,-58.49413799,-34.68095739,Cargas,Cruce
 2017-0053,Conductor,Moto,Masculino,28,0.0,1.0,2017-05-05 00:00:00,20,Calle,Vieytes,4.0,-58.37547846,-34.65326075,Cargas,Cruce
 2017-0054,Pasajero_acompañante,Moto,Femenino,20,0.0,1.0,2017-05-07 00:00:00,21,Avenida,de los Constituyentes Av.,15.0,-58.48680218,-34.58689719,Auto,Cruce
 2017-0055,Conductor,Auto,Masculino,32,0.0,1.0,2017-05-09 00:00:00,8,Avenida,de los Constituyentes Av.,12.0,-58.49563989,-34.57962262,Auto,Altura
@@ -203,11 +201,11 @@ Id,Rol,Víctima,Sexo,Edad,Días_de_muerte_post_accidente,No_víctimas,Fecha,Hora
 2017-0066,Peaton,Peaton,Masculino,10,0.0,1.0,2017-05-22 00:00:00,18,Avenida,San Martin Av.,15.0,-58.46002142,-34.60409469,Pasajeros,Cruce
 2017-0067,Conductor,Moto,Masculino,21,0.0,1.0,2017-05-23 00:00:00,2,Avenida,Directorio Av.,6.0,-58.43381970,-34.62801894,Cargas,Cruce
 2017-0068,Conductor,Moto,Masculino,32,0.0,1.0,2017-05-27 00:00:00,19,Avenida,"Rabanal, Francisco, Intendente Av.",8.0,-58.43580656,-34.66437532,Objeto Fijo,Altura
-2017-0069,Conductor,Moto,Masculino,39,0.0,1.0,2017-05-24 00:00:00,14,Gral Paz,"Paz, Gral. Av.",9.0,-58.52173071,-34.65997463,Sd,Cruce
+2017-0069,Conductor,Moto,Masculino,39,0.0,1.0,2017-05-24 00:00:00,14,Autopista,"Paz, Gral. Av.",9.0,-58.52173071,-34.65997463,,Cruce
 2017-0070,Peaton,Peaton,Masculino,80,1.0,1.0,2017-05-30 00:00:00,13,Calle,Nueva York,11.0,-58.50791763,-34.59804273,Auto,Altura
 2017-0072,Conductor,Auto,Masculino,25,0.0,1.0,2017-06-03 00:00:00,23,Avenida,de los Constituyentes Av.,12.0,-58.49175088,-34.58226957,Auto,Cruce
 2017-0073,Conductor,Moto,Masculino,19,0.0,1.0,2017-06-04 00:00:00,9,Avenida,Corrientes Av.,3.0,-58.40781467,-34.60425669,Auto,Cruce
-2017-0074,Sd,Sd,Masculino,70,0.0,1.0,2017-06-04 00:00:00,12,Calle,Casco,9.0,-58.52567073,-34.63787791,Sd,Altura
+2017-0074,,,Masculino,70,0.0,1.0,2017-06-04 00:00:00,12,Calle,Casco,9.0,-58.52567073,-34.63787791,,Altura
 2017-0075,Peaton,Peaton,Masculino,55,0.0,1.0,2017-06-12 00:00:00,22,Avenida,de Mayo Av.,1.0,-58.38154200,-34.60906385,Moto,Cruce
 2017-0076,Peaton,Peaton,Femenino,30,0.0,1.0,2017-06-13 00:00:00,14,Avenida,"Castillo, Ramon S., Pres. Av.",2.0,-58.38526125,-34.57805810,Cargas,Cruce
 2017-0077,Conductor,Moto,Femenino,60,1.0,1.0,2017-06-17 00:00:00,23,Calle,Fray Justo Santamaria de Oro,14.0,-58.42934104,-34.58451712,Cargas,Altura
@@ -220,11 +218,11 @@ Id,Rol,Víctima,Sexo,Edad,Días_de_muerte_post_accidente,No_víctimas,Fecha,Hora
 2017-0086,Peaton,Peaton,Femenino,30,0.0,1.0,2017-07-09 00:00:00,7,Avenida,Rivadavia Av.,9.0,-58.51876802,-34.63905965,Moto,Cruce
 2017-0087,Peaton,Peaton,Femenino,73,0.0,1.0,2017-07-10 00:00:00,10,Calle,24 de Noviembre,3.0,-58.41095567,-34.61516101,Auto,Altura
 2017-0088,Peaton,Peaton,Masculino,43,0.0,1.0,2017-07-10 00:00:00,22,Avenida,Paseo Colon Av.,1.0,-58.36797542,-34.62519403,Pasajeros,Cruce
-2017-0089,Sd,Sd,Masculino,23,Sd,1.0,2017-07-13 00:00:00,12,Calle,"Leguizamon, Martiniano",9.0,-58.51514709,-34.64787051,Auto,Altura
-2017-0090,Peaton,Peaton,Masculino,22,0.0,1.0,2017-07-15 00:00:00,5,Gral Paz,Chivilcoy Av.,11.0,-58.51925642,-34.59171721,Auto,Cruce
-2017-0091,Conductor,Moto,Masculino,58,0.0,1.0,2017-07-15 00:00:00,13,Gral Paz,Superi,12.0,-58.48671535,-34.54321216,Sd,Cruce
+2017-0089,,,Masculino,23,,1.0,2017-07-13 00:00:00,12,Calle,"Leguizamon, Martiniano",9.0,-58.51514709,-34.64787051,Auto,Altura
+2017-0090,Peaton,Peaton,Masculino,22,0.0,1.0,2017-07-15 00:00:00,5,Autopista,Chivilcoy Av.,11.0,-58.51925642,-34.59171721,Auto,Cruce
+2017-0091,Conductor,Moto,Masculino,58,0.0,1.0,2017-07-15 00:00:00,13,Autopista,Superi,12.0,-58.48671535,-34.54321216,,Cruce
 2017-0092,Peaton,Peaton,Masculino,66,0.0,1.0,2017-07-24 00:00:00,22,Autopista,Autopista 25 de Mayo,1.0,-58.38268809,-34.62282019,Auto,Cruce
-2017-0093,Peaton,Peaton,Masculino,Sd,0.0,1.0,2017-07-25 00:00:00,16,Autopista,"Lugones, Leopoldo Av.",13.0,-58.43633522,-34.54966288,Auto,Cruce
+2017-0093,Peaton,Peaton,Masculino,,0.0,1.0,2017-07-25 00:00:00,16,Autopista,"Lugones, Leopoldo Av.",13.0,-58.43633522,-34.54966288,Auto,Cruce
 2017-0094,Ciclista,Bicicleta,Femenino,56,0.0,1.0,2017-07-27 00:00:00,8,Calle,"Hugo, Victor",10.0,-58.52640838,-34.61765855,Cargas,Altura
 2017-0095,Conductor,Moto,Masculino,36,0.0,1.0,2017-08-06 00:00:00,8,Avenida,Cordoba Av.,14.0,-58.41894306,-34.59778875,Auto,Cruce
 2017-0096,Peaton,Peaton,Masculino,87,0.0,1.0,2017-08-07 00:00:00,19,Avenida,Cabildo Av.,13.0,-58.46756026,-34.54972741,Pasajeros,Cruce
@@ -236,23 +234,23 @@ Id,Rol,Víctima,Sexo,Edad,Días_de_muerte_post_accidente,No_víctimas,Fecha,Hora
 2017-0104,Peaton,Peaton,Femenino,18,0.0,1.0,2017-08-25 00:00:00,9,Avenida,9 de Julio Av.,1.0,-58.38109568,-34.61853244,Cargas,Cruce
 2017-0106,Peaton,Peaton,Femenino,85,0.0,1.0,2017-08-31 00:00:00,19,Calle,Fray Justo Santamaria de Oro,14.0,-58.42533612,-34.58035258,Pasajeros,Cruce
 2017-0107,Conductor,Moto,Masculino,41,0.0,1.0,2017-09-01 00:00:00,11,Avenida,del Libertador Av.,13.0,-58.46062311,-34.54395182,Cargas,Cruce
-2017-0108,Pasajero_acompañante,Auto,Masculino,17,0.0,2.0,2017-09-02 00:00:00,4,Gral Paz,"Paz, Gral. Av.",12.0,-58.49491054,-34.54795581,Auto,Cruce
-2017-0108,Pasajero_acompañante,Auto,Masculino,10,0.0,2.0,2017-09-02 00:00:00,4,Gral Paz,"Paz, Gral. Av.",12.0,-58.49491054,-34.54795581,Auto,Cruce
+2017-0108,Pasajero_acompañante,Auto,Masculino,17,0.0,2.0,2017-09-02 00:00:00,4,Autopista,"Paz, Gral. Av.",12.0,-58.49491054,-34.54795581,Auto,Cruce
+2017-0108,Pasajero_acompañante,Auto,Masculino,10,0.0,2.0,2017-09-02 00:00:00,4,Autopista,"Paz, Gral. Av.",12.0,-58.49491054,-34.54795581,Auto,Cruce
 2017-0109,Conductor,Moto,Masculino,21,1.0,1.0,2017-09-04 00:00:00,21,Avenida,Directorio Av.,7.0,-58.47130269,-34.63665402,Auto,Cruce
 2017-0110,Peaton,Peaton,Masculino,56,1.0,1.0,2017-09-06 00:00:00,14,Avenida,Lavalle,1.0,-58.37048800,-34.60189492,Pasajeros,Cruce
 2017-0111,Peaton,Peaton,Femenino,79,0.0,1.0,2017-09-07 00:00:00,18,Calle,Uspallata,4.0,-58.42023854,-34.64234110,Cargas,Cruce
-2017-0112,Pasajero_acompañante,Auto,Masculino,1,Sd,2.0,2017-09-10 00:00:00,9,Autopista,Autopista 25 de Mayo,7.0,-58.45807401,-34.63997430,Objeto Fijo,Sd
-2017-0112,Pasajero_acompañante,Auto,Masculino,Sd,3.0,2.0,2017-09-10 00:00:00,9,Autopista,Autopista 25 de Mayo,7.0,-58.45807401,-34.63997430,Objeto Fijo,Sd
+2017-0112,Pasajero_acompañante,Auto,Masculino,1,,2.0,2017-09-10 00:00:00,9,Autopista,Autopista 25 de Mayo,7.0,-58.45807401,-34.63997430,Objeto Fijo,
+2017-0112,Pasajero_acompañante,Auto,Masculino,,3.0,2.0,2017-09-10 00:00:00,9,Autopista,Autopista 25 de Mayo,7.0,-58.45807401,-34.63997430,Objeto Fijo,
 2017-0113,Peaton,Peaton,Femenino,76,0.0,1.0,2017-09-11 00:00:00,6,Avenida,Santa Fe Av.,1.0,-58.37697717,-34.59573848,Pasajeros,Cruce
 2017-0114,Conductor,Auto,Masculino,26,0.0,1.0,2017-09-15 00:00:00,2,Avenida,Alvear Av.,2.0,-58.39100580,-34.58498660,Objeto Fijo,Cruce
-2017-0115,Conductor,Moto,Masculino,34,Sd,1.0,2017-09-19 00:00:00,18,Avenida,Pavon Av.,5.0,-58.42182126,-34.63089661,Bicicleta,Cruce
-2017-0116,Conductor,Moto,Masculino,22,0.0,1.0,2017-09-20 00:00:00,22,Gral Paz,"Paz, Gral. Av.",12.0,-58.51389422,-34.58075791,Objeto Fijo,Altura
+2017-0115,Conductor,Moto,Masculino,34,,1.0,2017-09-19 00:00:00,18,Avenida,Pavon Av.,5.0,-58.42182126,-34.63089661,Bicicleta,Cruce
+2017-0116,Conductor,Moto,Masculino,22,0.0,1.0,2017-09-20 00:00:00,22,Autopista,"Paz, Gral. Av.",12.0,-58.51389422,-34.58075791,Objeto Fijo,Altura
 2017-0118,Pasajero_acompañante,Moto,Femenino,26,7.0,1.0,2017-09-22 00:00:00,7,Avenida,Vieytes,4.0,-58.37585415,-34.65232158,Auto,Cruce
 2017-0120,Conductor,Moto,Masculino,20,0.0,1.0,2017-10-02 00:00:00,15,Autopista,Autopista Dellepiane Luis Tte. Gral.,9.0,-58.47297505,-34.66245085,Cargas,Cruce
 2017-0123,Peaton,Peaton,Femenino,36,0.0,1.0,2017-10-10 00:00:00,1,Avenida,Albari?o,8.0,-58.46855503,-34.67216349,Auto,Cruce
 2017-0124,Conductor,Moto,Masculino,51,0.0,1.0,2017-10-12 00:00:00,14,Calle,"Ramirez de Velasco, Juan",15.0,-58.44254033,-34.59185043,Pasajeros,Altura
 2017-0125,Conductor,Moto,Masculino,29,0.0,1.0,2017-10-13 00:00:00,6,Avenida,"Fernandez de la Cruz, F., Gral. Av.",8.0,-58.46622247,-34.67926929,Objeto Fijo,Cruce
-2017-0126,Pasajero_acompañante,Auto,Masculino,39,Sd,2.0,2017-10-14 00:00:00,6,Avenida,Riestra Av.,8.0,-58.48003734,-34.68148508,Objeto Fijo,Cruce
+2017-0126,Pasajero_acompañante,Auto,Masculino,39,,2.0,2017-10-14 00:00:00,6,Avenida,Riestra Av.,8.0,-58.48003734,-34.68148508,Objeto Fijo,Cruce
 2017-0126,Conductor,Auto,Masculino,36,0.0,2.0,2017-10-14 00:00:00,6,Avenida,Riestra Av.,8.0,-58.48003734,-34.68148508,Objeto Fijo,Cruce
 2017-0127,Pasajero_acompañante,Moto,Masculino,24,0.0,1.0,2017-10-16 00:00:00,7,Avenida,Gallo,2.0,-58.41192137,-34.59800248,Moto,Cruce
 2017-0128,Peaton,Peaton,Femenino,60,0.0,1.0,2017-10-17 00:00:00,12,Calle,"Aranguren, Juan F., Dr.",6.0,-58.44034689,-34.61349731,Pasajeros,Altura
@@ -265,23 +263,23 @@ Id,Rol,Víctima,Sexo,Edad,Días_de_muerte_post_accidente,No_víctimas,Fecha,Hora
 2017-0137,Peaton,Peaton,Femenino,60,0.0,1.0,2017-11-17 00:00:00,11,Avenida,Mosconi General Av.,11.0,-58.51280715,-34.59279388,Cargas,Cruce
 2017-0138,Pasajero_acompañante,Moto,Masculino,25,0.0,1.0,2017-11-19 00:00:00,10,Avenida,Lafuente Av.,7.0,-58.46258582,-34.64385704,Objeto Fijo,Cruce
 2017-0139,Pasajero_acompañante,Auto,Femenino,15,0.0,1.0,2017-11-19 00:00:00,22,Avenida,"Roca, Cnel. Av.",8.0,-58.45064148,-34.68003614,Objeto Fijo,Cruce
-2017-0140,Conductor,Moto,Masculino,24,0.0,1.0,2017-11-19 00:00:00,23,Autopista,Autopista 1 Sur Presidente Arturo Frondizi,4.0,-58.42444444444444,-34.650277777777774,Pasajeros,Sd
+2017-0140,Conductor,Moto,Masculino,24,0.0,1.0,2017-11-19 00:00:00,23,Autopista,Autopista 1 Sur Presidente Arturo Frondizi,4.0,-58.42444444444444,-34.650277777777774,Pasajeros,
 2017-0141,Peaton,Peaton,Femenino,22,0.0,1.0,2017-11-23 00:00:00,19,Avenida,la Plata Av.,6.0,-58.42717783,-34.62513374,Pasajeros,Cruce
 2017-0143,Conductor,Auto,Masculino,50,0.0,1.0,2017-11-25 00:00:00,21,Calle,"Trelles, Manuel R.",11.0,-58.46442001,-34.60724519,Pasajeros,Cruce
-2017-0144,Pasajero_acompañante,Auto,Femenino,50,0.0,1.0,2017-11-26 00:00:00,6,Gral Paz,"Roca, Cnel. Av.",8.0,-58.47064556,-34.69843756,Objeto Fijo,Cruce
+2017-0144,Pasajero_acompañante,Auto,Femenino,50,0.0,1.0,2017-11-26 00:00:00,6,Autopista,"Roca, Cnel. Av.",8.0,-58.47064556,-34.69843756,Objeto Fijo,Cruce
 2017-0145,Conductor,Moto,Masculino,58,0.0,1.0,2017-11-26 00:00:00,17,Calle,Maza,5.0,-58.41677733,-34.61223119,Auto,Cruce
-2017-0147,Conductor,Moto,Masculino,49,0.0,1.0,2017-11-28 00:00:00,11,Gral Paz,"Paz, Gral. Av.",9.0,-58.50251790,-34.67450313,Auto,Cruce
+2017-0147,Conductor,Moto,Masculino,49,0.0,1.0,2017-11-28 00:00:00,11,Autopista,"Paz, Gral. Av.",9.0,-58.50251790,-34.67450313,Auto,Cruce
 2017-0148,Peaton,Peaton,Femenino,82,0.0,1.0,2017-11-29 00:00:00,10,Avenida,San Juan Av.,3.0,-58.40708125,-34.62438894,Pasajeros,Cruce
 2017-0149,Peaton,Peaton,Masculino,13,0.0,1.0,2017-11-30 00:00:00,12,Avenida,Paseo Colon Av.,1.0,-58.36947198,-34.61477051,Pasajeros,Cruce
 2017-0150,Peaton,Peaton,Masculino,56,0.0,1.0,2017-12-04 00:00:00,1,Avenida,Rivadavia Av.,9.0,-58.51140889,-34.63934531,Auto,Cruce
-2017-0151,Peaton,Peaton,Masculino,Sd,0.0,1.0,2017-12-04 00:00:00,2,Calle,Vieytes,4.0,-58.37460912,-34.65559133,Pasajeros,Cruce
+2017-0151,Peaton,Peaton,Masculino,,0.0,1.0,2017-12-04 00:00:00,2,Calle,Vieytes,4.0,-58.37460912,-34.65559133,Pasajeros,Cruce
 2017-0152,Ciclista,Bicicleta,Masculino,19,0.0,1.0,2017-12-06 00:00:00,17,Calle,Cachi,4.0,-58.41146277,-34.65073916,Pasajeros,Cruce
-2017-0153,Pasajero_acompañante,Moto,Masculino,Sd,1.0,2.0,2017-12-11 00:00:00,2,Avenida,Rosario,6.0,-58.42855267,-34.61829385,Pasajeros,Cruce
+2017-0153,Pasajero_acompañante,Moto,Masculino,,1.0,2.0,2017-12-11 00:00:00,2,Avenida,Rosario,6.0,-58.42855267,-34.61829385,Pasajeros,Cruce
 2017-0153,Conductor,Moto,Masculino,30,1.0,2.0,2017-12-11 00:00:00,2,Avenida,Rosario,6.0,-58.42855267,-34.61829385,Pasajeros,Cruce
 2017-0154,Peaton,Peaton,Masculino,76,0.0,1.0,2017-12-11 00:00:00,9,Avenida,entre Rios Av.,4.0,-58.39035581,-34.63412287,Pasajeros,Cruce
-2017-0155,Sd,Sd,Masculino,77,Sd,1.0,2017-12-12 00:00:00,21,Avenida,Rivadavia Av.,7.0,-58.45593915,-34.62656868,Moto,Altura
-2017-0157,Conductor,Auto,Masculino,53,0.0,1.0,2017-12-17 00:00:00,9,Gral Paz,"Paz, Gral. Av.",9.0,-58.52866211,-34.64597065,Pasajeros,Cruce
-2017-0158,Conductor,Moto,Masculino,32,0.0,1.0,2017-12-18 00:00:00,21,Gral Paz,Gualeguaychu,11.0,-58.52037476,-34.59407024,Auto,Cruce
+2017-0155,,,Masculino,77,,1.0,2017-12-12 00:00:00,21,Avenida,Rivadavia Av.,7.0,-58.45593915,-34.62656868,Moto,Altura
+2017-0157,Conductor,Auto,Masculino,53,0.0,1.0,2017-12-17 00:00:00,9,Autopista,"Paz, Gral. Av.",9.0,-58.52866211,-34.64597065,Pasajeros,Cruce
+2017-0158,Conductor,Moto,Masculino,32,0.0,1.0,2017-12-18 00:00:00,21,Autopista,Gualeguaychu,11.0,-58.52037476,-34.59407024,Auto,Cruce
 2017-0159,Conductor,Moto,Masculino,27,0.0,1.0,2017-12-20 00:00:00,4,Avenida,Independencia Av.,1.0,-58.38896772,-34.61799615,Auto,Cruce
 2017-0160,Peaton,Peaton,Femenino,30,0.0,1.0,2017-12-22 00:00:00,13,Avenida,Nazca Av.,7.0,-58.47074114,-34.62771756,Moto,Altura
 2017-0161,Peaton,Peaton,Femenino,30,0.0,1.0,2017-12-26 00:00:00,15,Avenida,"Peron, Eva Av.",9.0,-58.48200819,-34.65969965,Auto,Altura
@@ -291,21 +289,21 @@ Id,Rol,Víctima,Sexo,Edad,Días_de_muerte_post_accidente,No_víctimas,Fecha,Hora
 2018-0004,Conductor,Moto,Masculino,39,0.0,1.0,2018-01-09 00:00:00,9,Avenida,del Libertador Av.,13.0,-58.46129513,-34.54332766,Multiple,Cruce
 2018-0005,Peaton,Peaton,Masculino,54,0.0,1.0,2018-01-09 00:00:00,22,Avenida,Paseo Colon Av.,1.0,-58.36907201,-34.61953517,Pasajeros,Altura
 2018-0006,Ciclista,Bicicleta,Femenino,45,0.0,1.0,2018-01-10 00:00:00,21,Calle,Valle,6.0,-58.44062219,-34.62499107,Pasajeros,Cruce
-2018-0007,Conductor,Auto,Masculino,46,0.0,1.0,2018-01-11 00:00:00,2,Autopista,Autopista Perito Moreno,9.0,-58.52502765,-34.63601265,Auto,Sd
+2018-0007,Conductor,Auto,Masculino,46,0.0,1.0,2018-01-11 00:00:00,2,Autopista,Autopista Perito Moreno,9.0,-58.52502765,-34.63601265,Auto,
 2018-0008,Conductor,Moto,Femenino,32,0.0,1.0,2018-01-12 00:00:00,17,Avenida,"Huergo, Ing. Av.",1.0,-58.36659655,-34.61687778,Cargas,Cruce
 2018-0009,Conductor,Moto,Masculino,19,0.0,1.0,2018-01-14 00:00:00,2,Avenida,Pilcomayo,4.0,-58.36737389,-34.62763661,Moto,Cruce
 2018-0010,Conductor,Moto,Masculino,40,0.0,1.0,2018-01-18 00:00:00,5,Calle,Cervantes,10.0,-58.49807953,-34.63038658,Cargas,Cruce
 2018-0011,Peaton,Peaton,Masculino,84,0.0,1.0,2018-01-19 00:00:00,10,Avenida,Callao Av.,2.0,-58.39092703,-34.59088447,Pasajeros,Cruce
 2018-0012,Conductor,Moto,Masculino,20,0.0,1.0,2018-01-26 00:00:00,13,Calle,Oliden,8.0,-58.46912006,-34.68049201,Pasajeros,Cruce
 2018-0013,Conductor,Moto,Masculino,44,0.0,1.0,2018-01-28 00:00:00,8,Avenida,Congreso Av.,12.0,-58.48661286,-34.56786129,Auto,Cruce
-2018-0014,Peaton,Peaton,Masculino,Sd,4.0,1.0,2018-01-31 00:00:00,20,Avenida,"Moreno, Perito Av.",7.0,-58.44074927,-34.65080597,Moto,Cruce
+2018-0014,Peaton,Peaton,Masculino,,4.0,1.0,2018-01-31 00:00:00,20,Avenida,"Moreno, Perito Av.",7.0,-58.44074927,-34.65080597,Moto,Cruce
 2018-0015,Conductor,Moto,Masculino,28,0.0,2.0,2018-02-06 00:00:00,1,Avenida,Australia Av.,4.0,-58.38636298,-34.64684275,Pasajeros,Altura
 2018-0015,Pasajero_acompañante,Moto,Masculino,19,0.0,2.0,2018-02-06 00:00:00,1,Avenida,Australia Av.,4.0,-58.38636298,-34.64684275,Pasajeros,Altura
 2018-0016,Conductor,Moto,Masculino,31,0.0,1.0,2018-02-15 00:00:00,10,Avenida,del Libertador Av.,1.0,-58.37533517,-34.59276462,Cargas,Cruce
 2018-0017,Peaton,Peaton,Masculino,35,3.0,1.0,2018-02-17 00:00:00,4,Avenida,San Pedrito Av.,7.0,-58.46963952,-34.63070603,Auto,Cruce
 2018-0018,Conductor,Moto,Masculino,26,0.0,1.0,2018-02-17 00:00:00,7,Calle,Isabel la Catolica,4.0,-58.37207554,-34.64543658,Cargas,Cruce
 2018-0019,Peaton,Peaton,Femenino,80,0.0,1.0,2018-02-17 00:00:00,12,Avenida,las Heras General Av.,2.0,-58.39189441,-34.59176378,Pasajeros,Cruce
-2018-0020,Conductor,Moto,Masculino,26,0.0,1.0,2018-02-19 00:00:00,22,Autopista,Autopista Presidente Hector J. Campora,8.0,-58.45012957,-34.66518343,Cargas,Sd
+2018-0020,Conductor,Moto,Masculino,26,0.0,1.0,2018-02-19 00:00:00,22,Autopista,Autopista Presidente Hector J. Campora,8.0,-58.45012957,-34.66518343,Cargas,
 2018-0021,Peaton,Peaton,Femenino,62,0.0,1.0,2018-02-22 00:00:00,10,Avenida,"Alcorta, Amancio Av.",4.0,-58.40184094,-34.64546845,Pasajeros,Cruce
 2018-0022,Conductor,Moto,Masculino,28,0.0,1.0,2018-02-24 00:00:00,0,Avenida,"Montes de Oca, Manuel Av.",4.0,-58.37441153,-34.63966783,Cargas,Cruce
 2018-0023,Conductor,Moto,Masculino,28,0.0,1.0,2018-02-24 00:00:00,6,Calle,Barco Centenera del,6.0,-58.44110156,-34.62082399,Auto,Cruce
@@ -326,14 +324,14 @@ Id,Rol,Víctima,Sexo,Edad,Días_de_muerte_post_accidente,No_víctimas,Fecha,Hora
 2018-0037,Peaton,Peaton,Masculino,84,1.0,1.0,2018-04-18 00:00:00,18,Avenida,Cordoba Av.,2.0,-58.39872610,-34.59975962,Cargas,Cruce
 2018-0038,Peaton,Peaton,Femenino,59,0.0,2.0,2018-04-20 00:00:00,17,Avenida,Rivadavia Av.,1.0,-58.38872177,-34.60885045,Auto,Altura
 2018-0038,Peaton,Peaton,Masculino,61,0.0,2.0,2018-04-20 00:00:00,17,Avenida,Rivadavia Av.,1.0,-58.38872177,-34.60885045,Auto,Altura
-2018-0039,Peaton,Peaton,Masculino,37,0.0,1.0,2018-04-21 00:00:00,22,Autopista,"Lugones, Leopoldo Av.",14.0,-58.43055555555555,-34.58888888888889,Auto,Sd
-2018-0040,Peaton,Peaton,Femenino,Sd,0.0,1.0,2018-04-27 00:00:00,11,Calle,"Freire, Ramon, Cap. Gral.",13.0,-58.45686132,-34.57305993,Cargas,Cruce
+2018-0039,Peaton,Peaton,Masculino,37,0.0,1.0,2018-04-21 00:00:00,22,Autopista,"Lugones, Leopoldo Av.",14.0,-58.43055555555555,-34.58888888888889,Auto,
+2018-0040,Peaton,Peaton,Femenino,,0.0,1.0,2018-04-27 00:00:00,11,Calle,"Freire, Ramon, Cap. Gral.",13.0,-58.45686132,-34.57305993,Cargas,Cruce
 2018-0041,Peaton,Peaton,Femenino,78,0.0,1.0,2018-04-27 00:00:00,13,Avenida,la Plata Av.,4.0,-58.42281627,-34.64282424,Pasajeros,Cruce
 2018-0042,Pasajero_acompañante,Moto,Masculino,23,0.0,1.0,2018-04-27 00:00:00,18,Calle,Brandsen,4.0,-58.38666024,-34.63953396,Cargas,Cruce
 2018-0043,Conductor,Moto,Masculino,25,1.0,1.0,2018-04-28 00:00:00,6,Avenida,"Vilardebo, Teodoro",11.0,-58.49122843,-34.61207587,Auto,Cruce
 2018-0044,Peaton,Peaton,Femenino,50,0.0,1.0,2018-04-28 00:00:00,9,Avenida,Alberti,3.0,-58.40098306,-34.61866627,Auto,Cruce
 2018-0045,Conductor,Auto,Masculino,60,0.0,1.0,2018-04-30 00:00:00,7,Avenida,Alvarez Thomas Av.,13.0,-58.45448963,-34.57916920,Cargas,Altura
-2018-0046,Peaton,Peaton,Masculino,11,0.0,1.0,2018-05-02 00:00:00,3,Gral Paz,"Paz, Gral. Av.",9.0,-58.52927982,-34.63931752,Auto,Cruce
+2018-0046,Peaton,Peaton,Masculino,11,0.0,1.0,2018-05-02 00:00:00,3,Autopista,"Paz, Gral. Av.",9.0,-58.52927982,-34.63931752,Auto,Cruce
 2018-0047,Peaton,Peaton,Masculino,82,1.0,1.0,2018-05-08 00:00:00,19,Avenida,Corrientes Av.,15.0,-58.44759966,-34.59170240,Pasajeros,Cruce
 2018-0048,Peaton,Peaton,Masculino,57,7.0,1.0,2018-05-09 00:00:00,10,Avenida,Rivadavia Av.,7.0,-58.46411215,-34.62925068,Pasajeros,Cruce
 2018-0049,Peaton,Peaton,Femenino,40,2.0,1.0,2018-05-11 00:00:00,19,Calle,Quesada,13.0,-58.46213220,-34.55395823,Auto,Altura
@@ -358,25 +356,25 @@ Id,Rol,Víctima,Sexo,Edad,Días_de_muerte_post_accidente,No_víctimas,Fecha,Hora
 2018-0068,Conductor,Moto,Masculino,21,0.0,1.0,2018-07-01 00:00:00,9,Avenida,Carabobo Av.,7.0,-58.45546217,-34.62930339,Auto,Cruce
 2018-0069,Ciclista,Bicicleta,Masculino,20,0.0,1.0,2018-07-04 00:00:00,21,Avenida,Cordoba Av.,2.0,-58.39897064,-34.59954925,Pasajeros,Altura
 2018-0070,Conductor,Moto,Masculino,33,0.0,1.0,2018-07-07 00:00:00,15,Calle,estados Unidos,3.0,-58.40917826,-34.62126274,Pasajeros,Cruce
-2018-0071,Conductor,Moto,Masculino,Sd,0.0,1.0,2018-07-10 00:00:00,17,Avenida,Moreno,1.0,-58.36726348,-34.61099738,Cargas,Cruce
-2018-0072,Conductor,Moto,Masculino,27,2.0,1.0,2018-07-11 00:00:00,13,Autopista,Autopista Dellepiane Luis Tte. Gral.,8.0,-58.48267426,-34.68454456,Cargas,Sd
+2018-0071,Conductor,Moto,Masculino,,0.0,1.0,2018-07-10 00:00:00,17,Avenida,Moreno,1.0,-58.36726348,-34.61099738,Cargas,Cruce
+2018-0072,Conductor,Moto,Masculino,27,2.0,1.0,2018-07-11 00:00:00,13,Autopista,Autopista Dellepiane Luis Tte. Gral.,8.0,-58.48267426,-34.68454456,Cargas,
 2018-0073,Peaton,Peaton,Femenino,67,0.0,1.0,2018-07-11 00:00:00,15,Avenida,"Iriarte, Gral. Av.",4.0,-58.39546165,-34.65168841,Cargas,Altura
 2018-0074,Conductor,Auto,Masculino,25,0.0,1.0,2018-07-14 00:00:00,6,Avenida,"Alberdi, Juan Bautista Av.",7.0,-58.46941984,-34.63376545,Cargas,Altura
 2018-0075,Peaton,Peaton,Masculino,23,0.0,1.0,2018-07-15 00:00:00,7,Avenida,del Libertador Av.,14.0,-58.40367321,-34.58129246,Auto,Cruce
 2018-0076,Conductor,Auto,Masculino,73,0.0,1.0,2018-07-16 00:00:00,9,Calle,"Chavez, Jorge",9.0,-58.52932872,-34.65014993,Cargas,Cruce
 2018-0077,Conductor,Auto,Masculino,58,1.0,1.0,2018-07-16 00:00:00,23,Calle,"Urquiza, Gral.",3.0,-58.40917826,-34.62126274,Cargas,Cruce
 2018-0078,Peaton,Peaton,Masculino,27,0.0,1.0,2018-07-21 00:00:00,6,Calle,Paraguay,2.0,-58.41264127,-34.59473294,Auto,Cruce
-2018-0079,Peaton,Peaton,Masculino,Sd,0.0,1.0,2018-07-23 00:00:00,7,Gral Paz,de los Corrales Av.,9.0,-58.50877521,-34.66977709,Cargas,Cruce
+2018-0079,Peaton,Peaton,Masculino,,0.0,1.0,2018-07-23 00:00:00,7,Autopista,de los Corrales Av.,9.0,-58.50877521,-34.66977709,Cargas,Cruce
 2018-0080,Peaton,Peaton,Masculino,26,0.0,1.0,2018-07-25 00:00:00,22,Avenida,"Alberdi, Juan Bautista Av.",9.0,-58.51232237,-34.65903530,Auto,Cruce
 2018-0081,Peaton,Peaton,Masculino,35,0.0,1.0,2018-07-29 00:00:00,6,Avenida,Castanares Av.,7.0,-58.44744156,-34.64567171,Multiple,Cruce
 2018-0082,Conductor,Moto,Femenino,17,0.0,1.0,2018-08-01 00:00:00,15,Avenida,Larrazabal,9.0,-58.49441273,-34.65869968,Cargas,Cruce
-2018-0083,Conductor,Moto,Masculino,Sd,0.0,1.0,2018-08-02 00:00:00,5,Gral Paz,"Paz, Gral. Av.",8.0,-58.47976785,-34.69153196,Cargas,Cruce
+2018-0083,Conductor,Moto,Masculino,,0.0,1.0,2018-08-02 00:00:00,5,Autopista,"Paz, Gral. Av.",8.0,-58.47976785,-34.69153196,Cargas,Cruce
 2018-0084,Peaton,Peaton,Masculino,45,0.0,1.0,2018-08-03 00:00:00,7,Avenida,"Moreau de Justo, Alicia Av.",1.0,-58.36523349,-34.62260331,Cargas,Cruce
 2018-0085,Pasajero_acompañante,Moto,Femenino,22,0.0,2.0,2018-08-03 00:00:00,18,Avenida,entre Rios Av.,3.0,-58.39118948,-34.62704273,Pasajeros,Cruce
 2018-0085,Conductor,Moto,Masculino,30,0.0,2.0,2018-08-03 00:00:00,18,Avenida,entre Rios Av.,3.0,-58.39118948,-34.62704273,Pasajeros,Cruce
 2018-0086,Peaton,Peaton,Masculino,40,0.0,1.0,2018-08-10 00:00:00,21,Avenida,Directorio Av.,9.0,-58.49019551,-34.65015854,Pasajeros,Cruce
 2018-0087,Peaton,Peaton,Masculino,75,5.0,1.0,2018-08-15 00:00:00,19,Avenida,Pavon Av.,5.0,-58.41644362,-34.63023775,Pasajeros,Cruce
-2018-0088,Conductor,Moto,Masculino,Sd,0.0,1.0,2018-08-17 00:00:00,16,Gral Paz,"Paz, Gral. Av.",12.0,-58.50073810,-34.54979510,Cargas,Cruce
+2018-0088,Conductor,Moto,Masculino,,0.0,1.0,2018-08-17 00:00:00,16,Autopista,"Paz, Gral. Av.",12.0,-58.50073810,-34.54979510,Cargas,Cruce
 2018-0089,Peaton,Peaton,Masculino,80,0.0,1.0,2018-08-17 00:00:00,17,Avenida,Pichincha Av.,4.0,-58.39626094,-34.63036565,Pasajeros,Cruce
 2018-0090,Conductor,Moto,Masculino,27,0.0,1.0,2018-08-18 00:00:00,10,Avenida,27 de Febrero Av.,8.0,-58.43284809,-34.67051543,Auto,Cruce
 2018-0091,Pasajero_acompañante,Auto,Femenino,23,0.0,1.0,2018-08-19 00:00:00,18,Autopista,Autopista Perito Moreno,9.0,-58.52280139,-34.63659934,Auto,Cruce
@@ -386,11 +384,11 @@ Id,Rol,Víctima,Sexo,Edad,Días_de_muerte_post_accidente,No_víctimas,Fecha,Hora
 2018-0095,Pasajero_acompañante,Auto,Femenino,49,0.0,1.0,2018-08-26 00:00:00,0,Avenida,Lacarra Av.,9.0,-58.46739825,-34.65117757,Auto,Cruce
 2018-0096,Peaton,Peaton,Masculino,39,0.0,1.0,2018-08-31 00:00:00,22,Autopista,Autopista Presidente H?ctor J. C?mpora,8.0,-58.44483258,-34.67152226,Auto,Cruce
 2018-0097,Conductor,Auto,Femenino,35,0.0,1.0,2018-09-02 00:00:00,10,Avenida,Varela Av.,8.0,-58.43254025,-34.66128115,otro,Cruce
-2018-0098,Conductor,Auto,Masculino,55,0.0,2.0,2018-09-09 00:00:00,5,Gral Paz,"Paz, Gral. Av.",8.0,-58.47199387,-34.69640164,Auto,Cruce
-2018-0098,Pasajero_acompañante,Auto,Masculino,54,0.0,2.0,2018-09-09 00:00:00,5,Gral Paz,"Paz, Gral. Av.",8.0,-58.47199387,-34.69640164,Auto,Cruce
+2018-0098,Conductor,Auto,Masculino,55,0.0,2.0,2018-09-09 00:00:00,5,Autopista,"Paz, Gral. Av.",8.0,-58.47199387,-34.69640164,Auto,Cruce
+2018-0098,Pasajero_acompañante,Auto,Masculino,54,0.0,2.0,2018-09-09 00:00:00,5,Autopista,"Paz, Gral. Av.",8.0,-58.47199387,-34.69640164,Auto,Cruce
 2018-0099,Peaton,Peaton,Masculino,18,1.0,1.0,2018-09-12 00:00:00,14,Avenida,Rivadavia Av.,7.0,-58.46411215,-34.62925068,Pasajeros,Cruce
-2018-0100,Sd,Moto,Femenino,33,0.0,1.0,2018-09-20 00:00:00,10,Avenida,"Rawson de Dellepiane, Elvira Av.",1.0,-58.36217754,-34.62367156,Auto,Altura
-2018-0101,Conductor,Auto,Masculino,Sd,0.0,1.0,2018-09-21 00:00:00,0,Gral Paz,"Paz, Gral. Av.",12.0,-58.48098594,-34.54073130,Multiple,Cruce
+2018-0100,,Moto,Femenino,33,0.0,1.0,2018-09-20 00:00:00,10,Avenida,"Rawson de Dellepiane, Elvira Av.",1.0,-58.36217754,-34.62367156,Auto,Altura
+2018-0101,Conductor,Auto,Masculino,,0.0,1.0,2018-09-21 00:00:00,0,Autopista,"Paz, Gral. Av.",12.0,-58.48098594,-34.54073130,Multiple,Cruce
 2018-0102,Conductor,Moto,Masculino,20,0.0,1.0,2018-09-21 00:00:00,0,Calle,Famatina,4.0,-58.41083404,-34.64640709,Auto,Cruce
 2018-0103,Peaton,Peaton,Masculino,1,2.0,1.0,2018-09-27 00:00:00,17,Avenida,Casta?ares Av.,7.0,-58.44609828,-34.64446729,Moto,Cruce
 2018-0104,Conductor,Moto,Masculino,22,0.0,1.0,2018-10-01 00:00:00,8,Autopista,Autopista 1 Sur Presidente Arturo Frondizi,4.0,-58.37709334,-34.64035082,Moto,Cruce
@@ -400,27 +398,27 @@ Id,Rol,Víctima,Sexo,Edad,Días_de_muerte_post_accidente,No_víctimas,Fecha,Hora
 2018-0108,Conductor,Moto,Masculino,37,1.0,1.0,2018-10-09 00:00:00,14,Avenida,de los Italianos Av.,1.0,-58.36154069,-34.60463618,Auto,Cruce
 2018-0109,Peaton,Peaton,Masculino,34,0.0,1.0,2018-10-10 00:00:00,22,Avenida,Tucuman,1.0,-58.37062179,-34.60066507,Pasajeros,Cruce
 2018-0110,Peaton,Peaton,Masculino,60,1.0,1.0,2018-10-13 00:00:00,3,Avenida,Corrientes Av.,15.0,-58.43220014,-34.60207186,Moto,Cruce
-2018-0111,Conductor,Moto,Masculino,28,0.0,1.0,2018-10-19 00:00:00,12,Autopista,Autopista Perito Moreno,9.0,-58.46958442,-34.64949724,Cargas,Sd
+2018-0111,Conductor,Moto,Masculino,28,0.0,1.0,2018-10-19 00:00:00,12,Autopista,Autopista Perito Moreno,9.0,-58.46958442,-34.64949724,Cargas,
 2018-0112,Conductor,Moto,Femenino,28,0.0,1.0,2018-10-24 00:00:00,9,Calle,Mu?ecas,15.0,-58.44671397,-34.59970903,Cargas,Cruce
 2018-0113,Conductor,Moto,Masculino,20,0.0,1.0,2018-10-25 00:00:00,11,Calle,"Artigas, Jose Gervasio, Gral.",11.0,-58.47152163,-34.61474911,Cargas,Cruce
 2018-0114,Conductor,Moto,Masculino,23,0.0,1.0,2018-10-30 00:00:00,2,Avenida,Solis,1.0,-58.39032921,-34.61807951,Auto,Cruce
 2018-0115,Peaton,Peaton,Masculino,42,1.0,1.0,2018-10-31 00:00:00,12,Calle,"Bosch, Ventura",9.0,-58.52887773,-34.64297861,Pasajeros,Cruce
-2018-0116,Peaton,Peaton,Masculino,48,7.0,1.0,2018-11-01 00:00:00,10,Gral Paz,"Paz, Gral. Av.",8.0,-58.49371157,-34.67981324,Cargas,Altura
+2018-0116,Peaton,Peaton,Masculino,48,7.0,1.0,2018-11-01 00:00:00,10,Autopista,"Paz, Gral. Av.",8.0,-58.49371157,-34.67981324,Cargas,Altura
 2018-0117,Conductor,Moto,Masculino,30,4.0,1.0,2018-11-04 00:00:00,8,Avenida,"Peron, Eva Av.",9.0,-58.48266599,-34.66012327,Moto,Altura
 2018-0118,Peaton,Peaton,Femenino,80,0.0,1.0,2018-11-05 00:00:00,14,Avenida,"Peron, Juan Domingo, Tte. General",3.0,-58.40612253,-34.60774301,Moto,Cruce
-2018-0119,Peaton,Peaton,Femenino,32,1.0,1.0,2018-11-05 00:00:00,22,Avenida,"Rabanal, Francisco, Intendente Av.",8.0,-58.43613623,-34.66292532,Sd,Cruce
+2018-0119,Peaton,Peaton,Femenino,32,1.0,1.0,2018-11-05 00:00:00,22,Avenida,"Rabanal, Francisco, Intendente Av.",8.0,-58.43613623,-34.66292532,,Cruce
 2018-0120,Peaton,Peaton,Femenino,51,11.0,1.0,2018-11-09 00:00:00,13,Avenida,Monroe,12.0,-58.48250732,-34.57208238,Auto,Cruce
 2018-0121,Peaton,Peaton,Femenino,72,0.0,1.0,2018-11-09 00:00:00,16,Avenida,Rivadavia Av.,10.0,-58.49945705,-34.63743280,Pasajeros,Cruce
 2018-0122,Conductor,Auto,Masculino,33,0.0,1.0,2018-11-12 00:00:00,1,Autopista,Autopista Dellepiane Luis Tte. Gral.,8.0,-58.47743966,-34.67233407,Auto,Cruce
-2018-0123,Conductor,Auto,Masculino,25,0.0,1.0,2018-11-12 00:00:00,3,Gral Paz,"Paz, Gral. Av.",9.0,-58.50251790,-34.67450313,Sd,Cruce
-2018-0124,Conductor,Cargas,Masculino,44,0.0,1.0,2018-11-15 00:00:00,19,Autopista,Autopista Perito Moreno,9.0,-58.52144411,-34.63682499,Cargas,Sd
+2018-0123,Conductor,Auto,Masculino,25,0.0,1.0,2018-11-12 00:00:00,3,Autopista,"Paz, Gral. Av.",9.0,-58.50251790,-34.67450313,,Cruce
+2018-0124,Conductor,Cargas,Masculino,44,0.0,1.0,2018-11-15 00:00:00,19,Autopista,Autopista Perito Moreno,9.0,-58.52144411,-34.63682499,Cargas,
 2018-0125,Peaton,Peaton,Masculino,29,1.0,1.0,2018-11-16 00:00:00,21,Avenida,Saenz Av.,4.0,-58.41650465,-34.65084045,Pasajeros,Cruce
-2018-0126,Conductor,Moto,Masculino,27,5.0,1.0,2018-11-18 00:00:00,12,Gral Paz,"Paz, Gral. Av.",9.0,-58.52994219,-34.64055918,Auto,Cruce
-2018-0127,Conductor,Moto,Masculino,29,0.0,1.0,2018-11-19 00:00:00,9,Gral Paz,"Paz, Gral. Av.",12.0,-58.50993046,-34.56919739,Moto,Cruce
-2018-0128,Pasajero_acompañante,Auto,Masculino,49,0.0,2.0,2018-11-25 00:00:00,4,Gral Paz,"Paz, Gral. Av.",9.0,-58.52844623,-34.64592873,Pasajeros,Altura
-2018-0128,Pasajero_acompañante,Auto,Femenino,39,0.0,2.0,2018-11-25 00:00:00,4,Gral Paz,"Paz, Gral. Av.",9.0,-58.52844623,-34.64592873,Pasajeros,Altura
+2018-0126,Conductor,Moto,Masculino,27,5.0,1.0,2018-11-18 00:00:00,12,Autopista,"Paz, Gral. Av.",9.0,-58.52994219,-34.64055918,Auto,Cruce
+2018-0127,Conductor,Moto,Masculino,29,0.0,1.0,2018-11-19 00:00:00,9,Autopista,"Paz, Gral. Av.",12.0,-58.50993046,-34.56919739,Moto,Cruce
+2018-0128,Pasajero_acompañante,Auto,Masculino,49,0.0,2.0,2018-11-25 00:00:00,4,Autopista,"Paz, Gral. Av.",9.0,-58.52844623,-34.64592873,Pasajeros,Altura
+2018-0128,Pasajero_acompañante,Auto,Femenino,39,0.0,2.0,2018-11-25 00:00:00,4,Autopista,"Paz, Gral. Av.",9.0,-58.52844623,-34.64592873,Pasajeros,Altura
 2018-0129,Conductor,Moto,Masculino,37,2.0,1.0,2018-11-28 00:00:00,4,Avenida,"Newbery, Jorge Av.",15.0,-58.45021367,-34.58695347,Pasajeros,Cruce
-2018-0130,Conductor,Moto,Masculino,Sd,0.0,1.0,2018-12-03 00:00:00,3,Avenida,Gaona Av.,10.0,-58.49022072,-34.62770192,Pasajeros,Cruce
+2018-0130,Conductor,Moto,Masculino,,0.0,1.0,2018-12-03 00:00:00,3,Avenida,Gaona Av.,10.0,-58.49022072,-34.62770192,Pasajeros,Cruce
 2018-0131,Conductor,Moto,Masculino,29,0.0,1.0,2018-12-07 00:00:00,19,Avenida,"Madero, Eduardo Av.",1.0,-58.36860866,-34.60106568,Cargas,Altura
 2018-0132,Peaton,Peaton,Masculino,70,0.0,1.0,2018-12-12 00:00:00,8,Autopista,Autopista Arturo Illia,2.0,-58.39490504,-34.57241534,Cargas,Cruce
 2018-0133,Peaton,Peaton,Femenino,60,0.0,1.0,2018-12-12 00:00:00,14,Avenida,Nazca Av.,7.0,-58.46963952,-34.63070603,Cargas,Cruce
@@ -432,7 +430,7 @@ Id,Rol,Víctima,Sexo,Edad,Días_de_muerte_post_accidente,No_víctimas,Fecha,Hora
 2018-0139,Pasajero_acompañante,Moto,Masculino,28,2.0,1.0,2018-12-22 00:00:00,6,Calle,Santander,7.0,-58.44682986,-34.63888084,Moto,Altura
 2018-0140,Conductor,Auto,Masculino,78,0.0,1.0,2018-12-22 00:00:00,8,Calle,Lanteri Julieta,1.0,-58.36004650,-34.61381341,Auto,Altura
 2018-0141,Peaton,Peaton,Masculino,75,2.0,1.0,2018-12-22 00:00:00,17,Avenida,Maza,5.0,-58.41509546,-34.62085945,Moto,Cruce
-2018-0142,Pasajero_acompañante,Cargas,Masculino,32,7.0,1.0,2018-12-25 00:00:00,13,Gral Paz,"Paz, Gral. Av.",12.0,-58.50997604,-34.57251072,Pasajeros,Altura
+2018-0142,Pasajero_acompañante,Cargas,Masculino,32,7.0,1.0,2018-12-25 00:00:00,13,Autopista,"Paz, Gral. Av.",12.0,-58.50997604,-34.57251072,Pasajeros,Altura
 2018-0143,Conductor,Moto,Masculino,22,0.0,1.0,2018-12-29 00:00:00,5,Avenida,Olivera Av.,10.0,-58.48606475,-34.64047818,Auto,Cruce
 2019-0001,Conductor,Moto,Masculino,25,0.0,1.0,2019-01-08 00:00:00,8,Avenida,"Castillo, Ramon S., Pres. Av.",2.0,-58.38526125,-34.57805810,Cargas,Cruce
 2019-0002,Conductor,Auto,Masculino,32,0.0,1.0,2019-01-09 00:00:00,4,Avenida,Casta?ares Av.,7.0,-58.45463662,-34.65082149,Cargas,Cruce
@@ -441,11 +439,11 @@ Id,Rol,Víctima,Sexo,Edad,Días_de_muerte_post_accidente,No_víctimas,Fecha,Hora
 2019-0005,Conductor,Moto,Masculino,43,0.0,1.0,2019-01-19 00:00:00,12,Avenida,"Justo, Juan B. Av.",10.0,-58.52108101,-34.63382309,Cargas,Cruce
 2019-0006,Peaton,Peaton,Femenino,12,0.0,1.0,2019-01-23 00:00:00,5,Avenida,"Obligado Rafael, Av.costanera",14.0,-58.41652702,-34.55509606,Auto,Altura
 2019-0007,Conductor,Moto,Masculino,35,0.0,1.0,2019-01-26 00:00:00,19,Calle,"Mitre, Bartolome",5.0,-58.42891604,-34.61071660,Auto,Cruce
-2019-0008,Conductor,Moto,Masculino,42,1.0,1.0,2019-01-30 00:00:00,22,Gral Paz,"Paz, Gral. Av.",8.0,-58.47802293,-34.69156793,Multiple,Altura
+2019-0008,Conductor,Moto,Masculino,42,1.0,1.0,2019-01-30 00:00:00,22,Autopista,"Paz, Gral. Av.",8.0,-58.47802293,-34.69156793,Multiple,Altura
 2019-0009,Conductor,Moto,Masculino,34,0.0,1.0,2019-01-31 00:00:00,14,Avenida,Chacabuco,1.0,-58.37564821,-34.62200207,Auto,Cruce
-2019-0010,Peaton,Peaton,Masculino,Sd,0.0,2.0,2019-02-02 00:00:00,7,Avenida,del Libertador Av.,14.0,-58.42668489,-34.56961468,Auto,Altura
+2019-0010,Peaton,Peaton,Masculino,,0.0,2.0,2019-02-02 00:00:00,7,Avenida,del Libertador Av.,14.0,-58.42668489,-34.56961468,Auto,Altura
 2019-0010,Peaton,Peaton,Masculino,59,0.0,2.0,2019-02-02 00:00:00,7,Avenida,del Libertador Av.,14.0,-58.42668489,-34.56961468,Auto,Altura
-2019-0011,Peaton,Peaton,Masculino,Sd,0.0,1.0,2019-02-10 00:00:00,1,Gral Paz,"Paz, Gral. Av.",9.0,-58.51839930,-34.66252488,Auto,Cruce
+2019-0011,Peaton,Peaton,Masculino,,0.0,1.0,2019-02-10 00:00:00,1,Autopista,"Paz, Gral. Av.",9.0,-58.51839930,-34.66252488,Auto,Cruce
 2019-0012,Conductor,Moto,Masculino,31,3.0,1.0,2019-02-17 00:00:00,3,Avenida,Casta?ares Av.,8.0,-58.48432691,-34.67665828,Auto,Cruce
 2019-0013,Peaton,Peaton,Masculino,39,10.0,1.0,2019-02-20 00:00:00,7,Calle,Salvigny,7.0,-58.43383830,-34.64457699,Auto,Cruce
 2019-0014,Conductor,Moto,Masculino,69,0.0,1.0,2019-02-20 00:00:00,17,Calle,"Lamarca, Emilio",11.0,-58.51664939,-34.58657938,Objeto Fijo,Altura
@@ -453,35 +451,35 @@ Id,Rol,Víctima,Sexo,Edad,Días_de_muerte_post_accidente,No_víctimas,Fecha,Hora
 2019-0016,Conductor,Moto,Masculino,40,0.0,1.0,2019-02-24 00:00:00,2,Calle,"Carrillo, Ramon, Dr.",4.0,-58.38313603,-34.63356284,Pasajeros,Cruce
 2019-0017,Conductor,Auto,Masculino,22,4.0,1.0,2019-03-03 00:00:00,7,Calle,Mexico,3.0,-58.39914719,-34.61632317,Pasajeros,Cruce
 2019-0018,Peaton,Peaton,Femenino,29,0.0,1.0,2019-03-03 00:00:00,23,Autopista,"Cantilo, Int.",13.0,-58.44927253,-34.54048625,Auto,Cruce
-2019-0019,Conductor,Moto,Masculino,Sd,20.0,1.0,2019-03-06 00:00:00,12,Avenida,del Libertador Av.,13.0,-58.45049163,-34.55374003,Auto,Altura
+2019-0019,Conductor,Moto,Masculino,,20.0,1.0,2019-03-06 00:00:00,12,Avenida,del Libertador Av.,13.0,-58.45049163,-34.55374003,Auto,Altura
 2019-0020,Conductor,Moto,Masculino,43,0.0,1.0,2019-03-07 00:00:00,21,Avenida,Chiclana Av.,5.0,-58.41288952,-34.63572989,Auto,Altura
 2019-0021,Conductor,Moto,Masculino,23,1.0,1.0,2019-03-15 00:00:00,22,Avenida,Boyaca Av.,7.0,-58.45743597,-34.62561234,Auto,Cruce
-2019-0022,Pasajero_acompañante,Auto,Masculino,Sd,0.0,1.0,2019-03-15 00:00:00,0,Avenida,entre Rios Av.,1.0,-58.39123782,-34.62352245,Sd,Altura
-2019-0023,Conductor,Auto,Masculino,34,0.0,1.0,2019-03-16 00:00:00,8,Gral Paz,"Paz, Gral. Av.",9.0,-58.52922765,-34.63637963,Objeto Fijo,Cruce
+2019-0022,Pasajero_acompañante,Auto,Masculino,,0.0,1.0,2019-03-15 00:00:00,0,Avenida,entre Rios Av.,1.0,-58.39123782,-34.62352245,,Altura
+2019-0023,Conductor,Auto,Masculino,34,0.0,1.0,2019-03-16 00:00:00,8,Autopista,"Paz, Gral. Av.",9.0,-58.52922765,-34.63637963,Objeto Fijo,Cruce
 2019-0024,Conductor,Moto,Masculino,32,0.0,1.0,2019-03-19 00:00:00,7,Avenida,Antartida Argentina Av.,1.0,-58.37208118,-34.58541957,Cargas,Altura
 2019-0025,Peaton,Peaton,Masculino,27,13.0,1.0,2019-03-22 00:00:00,13,Calle,"Mitre, Bartolome",5.0,-58.41458534,-34.60937557,Auto,Cruce
-2019-0026,Peaton,Peaton,Masculino,Sd,0.0,1.0,2019-03-28 00:00:00,7,Avenida,"Fernandez de la Cruz, F., Gral. Av.",8.0,-58.47976785,-34.69153196,Pasajeros,Cruce
+2019-0026,Peaton,Peaton,Masculino,,0.0,1.0,2019-03-28 00:00:00,7,Avenida,"Fernandez de la Cruz, F., Gral. Av.",8.0,-58.47976785,-34.69153196,Pasajeros,Cruce
 2019-0027,Ciclista,Bicicleta,Masculino,37,0.0,1.0,2019-03-28 00:00:00,11,Avenida,Santa Fe Av.,2.0,-58.39990285,-34.59511714,Multiple,Cruce
-2019-0028,Peaton,Peaton,Femenino,Sd,0.0,1.0,2019-04-06 00:00:00,9,Avenida,"Justo, Juan B. Av.",11.0,-58.46051346,-34.60588536,Pasajeros,Cruce
+2019-0028,Peaton,Peaton,Femenino,,0.0,1.0,2019-04-06 00:00:00,9,Avenida,"Justo, Juan B. Av.",11.0,-58.46051346,-34.60588536,Pasajeros,Cruce
 2019-0029,Conductor,Moto,Masculino,27,0.0,1.0,2019-04-07 00:00:00,10,Avenida,"Fernandez de la Cruz, F., Gral. Av.",8.0,-58.47976785,-34.69153196,Objeto Fijo,Cruce
 2019-0030,Conductor,Moto,Masculino,25,0.0,1.0,2019-04-09 00:00:00,16,Calle,"Alvarez, Donato, Tte. Gral.",7.0,-58.45457546,-34.62447891,Cargas,Cruce
 2019-0031,Ciclista,Bicicleta,Masculino,20,0.0,1.0,2019-04-12 00:00:00,19,Avenida,Cordoba Av.,1.0,-58.36951669,-34.59832047,Cargas,Cruce
 2019-0032,Peaton,Peaton,Femenino,83,2.0,1.0,2019-04-16 00:00:00,11,Avenida,Camarones,11.0,-58.46415322,-34.60443790,Auto,Cruce
-2019-0033,Conductor,Moto,Masculino,25,0.0,1.0,2019-04-18 00:00:00,1,Autopista,Autopista 25 de Mayo,1.0,-58.36607137,-34.62150748,Sd,Cruce
-2019-0034,Conductor,Moto,Masculino,Sd,0.0,1.0,2019-04-21 00:00:00,9,Avenida,"Moreno, Perito Av.",7.0,-58.45537373,-34.65093074,Objeto Fijo,Altura
+2019-0033,Conductor,Moto,Masculino,25,0.0,1.0,2019-04-18 00:00:00,1,Autopista,Autopista 25 de Mayo,1.0,-58.36607137,-34.62150748,,Cruce
+2019-0034,Conductor,Moto,Masculino,,0.0,1.0,2019-04-21 00:00:00,9,Avenida,"Moreno, Perito Av.",7.0,-58.45537373,-34.65093074,Objeto Fijo,Altura
 2019-0035,Peaton,Peaton,Femenino,75,0.0,1.0,2019-04-23 00:00:00,14,Calle,Suipacha,1.0,-58.37942637,-34.60053054,Bicicleta,Altura
 2019-0036,Conductor,Moto,Masculino,34,6.0,1.0,2019-04-26 00:00:00,22,Calle,Riglos,6.0,-58.43680440,-34.62147504,Auto,Cruce
 2019-0037,Conductor,Moto,Masculino,17,0.0,1.0,2019-05-01 00:00:00,23,Avenida,la Rioja,3.0,-58.40778291,-34.61971907,Auto,Cruce
 2019-0038,Peaton,Peaton,Femenino,42,1.0,1.0,2019-05-04 00:00:00,14,Avenida,"Udaondo, Guillermo Av.",13.0,-58.45212523,-34.54628513,Moto,Cruce
 2019-0105,Peaton,Peaton,Femenino,82,3.0,1.0,2019-05-05 00:00:00,11,Avenida,Santo Tome,10.0,-58.50512382,-34.61520391,Auto,Cruce
 2019-0039,Conductor,Moto,Masculino,28,0.0,1.0,2019-05-09 00:00:00,3,Avenida,San Pedrito Av.,7.0,-58.46749188,-34.63551751,Auto,Cruce
-2019-0040,Conductor,Moto,Masculino,44,6.0,1.0,2019-05-09 00:00:00,12,Calle,Puan,7.0,-58.44263580,-34.63679732,Sd,Cruce
+2019-0040,Conductor,Moto,Masculino,44,6.0,1.0,2019-05-09 00:00:00,12,Calle,Puan,7.0,-58.44263580,-34.63679732,,Cruce
 2019-0041,Pasajero_acompañante,Auto,Femenino,78,0.0,1.0,2019-05-11 00:00:00,20,Avenida,"Alberdi, Juan Bautista Av.",9.0,-58.51140289,-34.65846419,Multiple,Cruce
 2019-0042,Peaton,Peaton,Masculino,39,0.0,1.0,2019-05-14 00:00:00,15,Calle,Lima,1.0,-58.38211431,-34.62465368,Pasajeros,Cruce
-2019-0043,Ciclista,Bicicleta,Femenino,Sd,0.0,1.0,2019-05-21 00:00:00,9,Avenida,Cordoba Av.,1.0,-58.36951669,-34.59832047,Cargas,Cruce
+2019-0043,Ciclista,Bicicleta,Femenino,,0.0,1.0,2019-05-21 00:00:00,9,Avenida,Cordoba Av.,1.0,-58.36951669,-34.59832047,Cargas,Cruce
 2019-0044,Peaton,Peaton,Femenino,77,2.0,1.0,2019-05-27 00:00:00,12,Avenida,Boedo Av.,5.0,-58.41635217,-34.62036547,Moto,Altura
 2019-0045,Conductor,Moto,Masculino,33,0.0,1.0,2019-06-03 00:00:00,7,Avenida,del Libertador Av.,14.0,-58.41316147,-34.57579669,Cargas,Cruce
-2019-0046,Pasajero_acompañante,Moto,Femenino,26,0.0,1.0,2019-06-04 00:00:00,9,Gral Paz,"Paz, Gral. Av.",13.0,-58.47617802,-34.53825652,Auto,Cruce
+2019-0046,Pasajero_acompañante,Moto,Femenino,26,0.0,1.0,2019-06-04 00:00:00,9,Autopista,"Paz, Gral. Av.",13.0,-58.47617802,-34.53825652,Auto,Cruce
 2019-0047,Peaton,Peaton,Masculino,76,0.0,1.0,2019-06-06 00:00:00,10,Avenida,Caseros Av.,4.0,-58.38641783,-34.63330028,Cargas,Altura
 2019-0048,Conductor,Moto,Masculino,32,0.0,1.0,2019-06-07 00:00:00,7,Avenida,Avellaneda Av.,6.0,-58.45322169,-34.62038137,Cargas,Altura
 2019-0049,Peaton,Peaton,Femenino,72,1.0,1.0,2019-06-08 00:00:00,9,Calle,Ciudad de la Paz,13.0,-58.45849057,-34.56166498,Cargas,Cruce
@@ -492,12 +490,12 @@ Id,Rol,Víctima,Sexo,Edad,Días_de_muerte_post_accidente,No_víctimas,Fecha,Hora
 2019-0055,Conductor,Moto,Masculino,47,1.0,1.0,2019-06-20 00:00:00,19,Avenida,"Guevara, Trinidad",1.0,-58.36819005,-34.60283208,Pasajeros,Cruce
 2019-0056,Peaton,Peaton,Femenino,75,0.0,1.0,2019-06-29 00:00:00,17,Avenida,Boyaca Av.,7.0,-58.45877601,-34.62330939,Auto,Altura
 2019-0057,Peaton,Peaton,Femenino,63,3.0,1.0,2019-07-05 00:00:00,19,Calle,Artilleros,13.0,-58.44196498,-34.55760517,Auto,Cruce
-2019-0058,Conductor,Moto,Masculino,39,0.0,1.0,2019-07-10 00:00:00,9,Autopista,Autopista Perito Moreno,10.0,-58.50622631,-34.63627822,Pasajeros,Sd
+2019-0058,Conductor,Moto,Masculino,39,0.0,1.0,2019-07-10 00:00:00,9,Autopista,Autopista Perito Moreno,10.0,-58.50622631,-34.63627822,Pasajeros,
 2019-0059,Conductor,Moto,Masculino,30,0.0,1.0,2019-07-13 00:00:00,22,Calle,15 de Noviembre de 1889,1.0,-58.38410880,-34.63099197,Pasajeros,Cruce
 2019-0060,Peaton,Peaton,Femenino,78,0.0,1.0,2019-07-17 00:00:00,11,Avenida,"Acosta, Mariano Av.",10.0,-58.48100602,-34.63504312,Auto,Cruce
 2019-0061,Peaton,Peaton,Femenino,58,0.0,1.0,2019-07-17 00:00:00,18,Calle,11 de Septiembre de 1888,13.0,-58.45200171,-34.55781320,Pasajeros,Cruce
 2019-0062,Peaton,Peaton,Femenino,60,1.0,1.0,2019-08-01 00:00:00,23,Avenida,"Pino, Virrey del",13.0,-58.44462132,-34.56201105,Pasajeros,Cruce
-2019-0063,Pasajero_acompañante,Moto,Masculino,Sd,0.0,1.0,2019-08-04 00:00:00,1,Avenida,Forest Av.,15.0,-58.45220688,-34.58711712,Pasajeros,Cruce
+2019-0063,Pasajero_acompañante,Moto,Masculino,,0.0,1.0,2019-08-04 00:00:00,1,Avenida,Forest Av.,15.0,-58.45220688,-34.58711712,Pasajeros,Cruce
 2019-0064,Conductor,Moto,Masculino,20,0.0,1.0,2019-08-06 00:00:00,3,Avenida,Boyaca Av.,7.0,-58.45962210,-34.62245140,Auto,Cruce
 2019-0065,Peaton,Peaton,Femenino,55,1.0,1.0,2019-08-08 00:00:00,16,Calle,Barco Centenera del,4.0,-58.41970850,-34.65414867,Pasajeros,Cruce
 2019-0066,Peaton,Peaton,Masculino,40,0.0,1.0,2019-08-11 00:00:00,21,Avenida,Riestra Av.,7.0,-58.44187596,-34.64938031,Auto,Cruce
@@ -505,16 +503,16 @@ Id,Rol,Víctima,Sexo,Edad,Días_de_muerte_post_accidente,No_víctimas,Fecha,Hora
 2019-0068,Conductor,Moto,Masculino,53,0.0,1.0,2019-08-14 00:00:00,17,Avenida,27 de Febrero Av.,8.0,-58.42493829,-34.66256502,Moto,Altura
 2019-0069,Conductor,Moto,Masculino,43,0.0,1.0,2019-08-17 00:00:00,5,Avenida,"Garay, Juan de Av.",4.0,-58.40489318,-34.62930162,Auto,Altura
 2019-0070,Conductor,Moto,Masculino,25,0.0,1.0,2019-08-22 00:00:00,12,Avenida,"Scalabrini Ortiz, Raul Av.",14.0,-58.42686680,-34.59217875,Bicicleta,Cruce
-2019-0071,Peaton,Peaton,Masculino,Sd,0.0,1.0,2019-08-27 00:00:00,11,Avenida,Primera Junta,9.0,-58.47961100,-34.65620398,Cargas,Cruce
+2019-0071,Peaton,Peaton,Masculino,,0.0,1.0,2019-08-27 00:00:00,11,Avenida,Primera Junta,9.0,-58.47961100,-34.65620398,Cargas,Cruce
 2019-0072,Conductor,Auto,Masculino,22,5.0,1.0,2019-08-28 00:00:00,6,Avenida,"Alberdi, Juan Bautista Av.",10.0,-58.47439934,-34.63524207,Auto,Cruce
 2019-0073,Conductor,Auto,Masculino,29,8.0,1.0,2019-08-29 00:00:00,1,Avenida,Alvarez Thomas Av.,15.0,-58.46711912,-34.57926018,Objeto Fijo,Altura
 2019-0074,Conductor,Moto,Masculino,35,0.0,1.0,2019-08-29 00:00:00,9,Autopista,"Lugones, Leopoldo Av.",13.0,-58.46514781,-34.53465378,Cargas,Cruce
 2019-0075,Conductor,Moto,Masculino,31,0.0,1.0,2019-08-30 00:00:00,23,Calle,San Antonio,4.0,-58.37571078,-34.65584079,Pasajeros,Cruce
-2019-0076,Conductor,Moto,Femenino,29,0.0,1.0,2019-09-05 00:00:00,18,Autopista,Autopista 1 Sur Presidente Arturo Frondizi,4.0,-58.37157668,-34.65429986,Cargas,Sd
+2019-0076,Conductor,Moto,Femenino,29,0.0,1.0,2019-09-05 00:00:00,18,Autopista,Autopista 1 Sur Presidente Arturo Frondizi,4.0,-58.37157668,-34.65429986,Cargas,
 2019-0077,Peaton,Peaton,Femenino,28,0.0,1.0,2019-09-08 00:00:00,3,Avenida,"Figueroa Alcorta, Pres. Av.",14.0,-58.39811256,-34.58070186,Auto,Cruce
 2019-0078,Peaton,Peaton,Femenino,72,3.0,1.0,2019-09-12 00:00:00,8,Avenida,"Einstein, Alberto",4.0,-58.41125934,-34.65417740,Cargas,Cruce
 2019-0079,Conductor,Moto,Masculino,57,0.0,1.0,2019-09-17 00:00:00,5,Calle,Agrelo,5.0,-58.41822901,-34.61866836,Pasajeros,Cruce
-2019-0080,Peaton,Peaton,Masculino,76,0.0,1.0,2019-09-17 00:00:00,18,Gral Paz,Cabildo Av.,13.0,-58.47617802,-34.53825652,Moto,Cruce
+2019-0080,Peaton,Peaton,Masculino,76,0.0,1.0,2019-09-17 00:00:00,18,Autopista,Cabildo Av.,13.0,-58.47617802,-34.53825652,Moto,Cruce
 2019-0081,Peaton,Peaton,Masculino,67,14.0,1.0,2019-09-23 00:00:00,16,Avenida,Elcano Av.,15.0,-58.46141281,-34.58623761,Pasajeros,Altura
 2019-0082,Ciclista,Bicicleta,Masculino,47,0.0,1.0,2019-09-25 00:00:00,7,Avenida,"Rabanal, Francisco, Intendente Av.",8.0,-58.42985146,-34.66119740,Cargas,Altura
 2019-0083,Conductor,Auto,Masculino,73,0.0,1.0,2019-09-26 00:00:00,8,Calle,Monte,9.0,-58.48457413,-34.65839090,Auto,Cruce
@@ -528,15 +526,15 @@ Id,Rol,Víctima,Sexo,Edad,Días_de_muerte_post_accidente,No_víctimas,Fecha,Hora
 2019-0091,Peaton,Peaton,Masculino,35,0.0,1.0,2019-11-01 00:00:00,20,Avenida,"Justo, Juan B. Av.",15.0,-58.44551437,-34.59559816,Pasajeros,Cruce
 2019-0092,Peaton,Peaton,Masculino,37,0.0,1.0,2019-11-03 00:00:00,10,Calle,"Brin, Ministro",4.0,-58.35608181,-34.63420319,Pasajeros,Cruce
 2019-0093,Ciclista,Bicicleta,Masculino,16,0.0,1.0,2019-11-13 00:00:00,11,Avenida,Niza,11.0,-58.46483679,-34.60907662,otro,Cruce
-2019-0094,Pasajero_acompañante,Moto,Femenino,Sd,0.0,1.0,2019-11-18 00:00:00,14,Calle,Camargo,15.0,-58.44368628,-34.59724326,otro,Cruce
-2019-0095,Conductor,Moto,Masculino,Sd,0.0,1.0,2019-11-20 00:00:00,15,Autopista,Autopista 1 Sur Presidente Arturo Frondizi,1.0,-58.37864583,-34.62907067,Cargas,Sd
+2019-0094,Pasajero_acompañante,Moto,Femenino,,0.0,1.0,2019-11-18 00:00:00,14,Calle,Camargo,15.0,-58.44368628,-34.59724326,otro,Cruce
+2019-0095,Conductor,Moto,Masculino,,0.0,1.0,2019-11-20 00:00:00,15,Autopista,Autopista 1 Sur Presidente Arturo Frondizi,1.0,-58.37864583,-34.62907067,Cargas,
 2019-0096,Peaton,Peaton,Masculino,73,0.0,1.0,2019-11-22 00:00:00,19,Avenida,Caseros Av.,1.0,-58.37560352,-34.62726382,Pasajeros,Cruce
-2019-0097,Pasajero_acompañante,Moto,Femenino,23,0.0,1.0,2019-11-25 00:00:00,8,Autopista,Autopista Perito Moreno,9.0,-58.47721439,-34.64815069,Multiple,Sd
+2019-0097,Pasajero_acompañante,Moto,Femenino,23,0.0,1.0,2019-11-25 00:00:00,8,Autopista,Autopista Perito Moreno,9.0,-58.47721439,-34.64815069,Multiple,
 2019-0098,Pasajero_acompañante,Pasajeros,Femenino,61,4.0,1.0,2019-11-25 00:00:00,14,Avenida,Guzman,15.0,-58.45134029,-34.58984288,Pasajeros,Altura
 2019-0100,Conductor,Moto,Masculino,38,13.0,1.0,2019-12-05 00:00:00,17,Avenida,de los Constituyentes Av.,12.0,-58.49040794,-34.58368803,Auto,Altura
 2019-0101,Conductor,Moto,Masculino,25,0.0,1.0,2019-12-17 00:00:00,4,Avenida,"Moreno, Perito Av.",4.0,-58.42102679,-34.64991178,Moto,Cruce
 2019-0102,Conductor,Moto,Masculino,18,1.0,1.0,2019-12-17 00:00:00,14,Calle,Ibarrola,9.0,-58.52219407,-34.64143926,Auto,Cruce
-2019-0103,Conductor,Moto,Masculino,24,0.0,1.0,2019-12-18 00:00:00,Sd,Gral Paz,"Paz, Gral. Av.",11.0,-58.52169422,-34.59471640,Moto,Cruce
+2019-0103,Conductor,Moto,Masculino,24,0.0,1.0,2019-12-18 00:00:00,,Autopista,"Paz, Gral. Av.",11.0,-58.52169422,-34.59471640,Moto,Cruce
 2019-0104,Pasajero_acompañante,Moto,Femenino,23,1.0,1.0,2019-12-21 00:00:00,4,Avenida,Rivadavia Av.,10.0,-58.47460416,-34.63206174,Auto,Cruce
 2020-0001,Peaton,Peaton,Femenino,87,0.0,1.0,2020-01-04 00:00:00,10,Calle,Uriarte,15.0,-58.43910409,-34.59213355,Auto,Cruce
 2020-0002,Conductor,Moto,Masculino,36,2.0,1.0,2020-01-05 00:00:00,20,Avenida,Saraza,7.0,-58.45019436,-34.64646409,Objeto Fijo,Cruce
@@ -547,14 +545,14 @@ Id,Rol,Víctima,Sexo,Edad,Días_de_muerte_post_accidente,No_víctimas,Fecha,Hora
 2020-0007,Peaton,Peaton,Masculino,52,0.0,1.0,2020-01-27 00:00:00,0,Calle,Chile,1.0,-58.38156850,-34.61648696,Moto,Cruce
 2020-0008,Conductor,Moto,Masculino,49,0.0,1.0,2020-01-30 00:00:00,7,Avenida,Cordoba Av.,2.0,-58.40662899,-34.59804521,Cargas,Cruce
 2020-0009,Peaton,Peaton,Masculino,48,1.0,1.0,2020-02-04 00:00:00,14,Calle,"Peron, Juan Domingo, Tte. General",5.0,-58.41985649,-34.60600850,Auto,Cruce
-2020-0010,Conductor,Moto,Masculino,Sd,0.0,1.0,2020-02-08 00:00:00,5,Avenida,9 de Julio Av.,1.0,-58.38099833,-34.62214953,Objeto Fijo,Cruce
+2020-0010,Conductor,Moto,Masculino,,0.0,1.0,2020-02-08 00:00:00,5,Avenida,9 de Julio Av.,1.0,-58.38099833,-34.62214953,Objeto Fijo,Cruce
 2020-0011,Conductor,Moto,Masculino,31,0.0,1.0,2020-02-12 00:00:00,11,Calle,Colombres,5.0,-58.41803309,-34.61823178,Cargas,Altura
 2020-0012,Peaton,Peaton,Femenino,66,0.0,1.0,2020-02-18 00:00:00,21,Calle,Mexico,3.0,-58.40604003,-34.61783553,Moto,Altura
 2020-0013,Peaton,Peaton,Femenino,58,12.0,1.0,2020-02-20 00:00:00,12,Avenida,Combatientes de Malvinas Av.,15.0,-58.47549929,-34.57994061,Moto,Cruce
-2020-0014,Conductor,Moto,Masculino,Sd,0.0,1.0,2020-02-27 00:00:00,2,Calle,Bermudez,11.0,-58.51398484,-34.61600366,Pasajeros,Cruce
+2020-0014,Conductor,Moto,Masculino,,0.0,1.0,2020-02-27 00:00:00,2,Calle,Bermudez,11.0,-58.51398484,-34.61600366,Pasajeros,Cruce
 2020-0015,Conductor,Moto,Masculino,29,0.0,1.0,2020-02-28 00:00:00,14,Avenida,Brasil Av.,1.0,-58.36797542,-34.62519403,Pasajeros,Cruce
 2020-0016,Peaton,Peaton,Masculino,68,9.0,1.0,2020-02-29 00:00:00,13,Avenida,"Alem, Leandro N. Av.",1.0,-58.37133616,-34.59879316,Pasajeros,Altura
-2020-0017,Peaton,Peaton,Masculino,Sd,0.0,1.0,2020-03-05 00:00:00,23,Avenida,Belgrano Av.,3.0,-58.39613805,-34.61413568,Auto,Cruce
+2020-0017,Peaton,Peaton,Masculino,,0.0,1.0,2020-03-05 00:00:00,23,Avenida,Belgrano Av.,3.0,-58.39613805,-34.61413568,Auto,Cruce
 2020-0018,Conductor,Moto,Masculino,31,0.0,1.0,2020-03-09 00:00:00,14,Avenida,"Udaondo, Guillermo Av.",13.0,-58.44903073,-34.54200276,Objeto Fijo,Altura
 2020-0019,Peaton,Peaton,Femenino,80,0.0,1.0,2020-03-10 00:00:00,21,Calle,Constitucion,5.0,-58.41972364,-34.62846670,Auto,Cruce
 2020-0020,Peaton,Peaton,Femenino,74,4.0,1.0,2020-03-13 00:00:00,17,Avenida,Pueyrredon Av.,3.0,-58.40571596,-34.60557123,Moto,Cruce
@@ -562,28 +560,28 @@ Id,Rol,Víctima,Sexo,Edad,Días_de_muerte_post_accidente,No_víctimas,Fecha,Hora
 2020-0022,Pasajero_acompañante,Auto,Masculino,44,0.0,1.0,2020-04-07 00:00:00,6,Autopista,Autopista Dellepiane Luis Tte. Gral.,9.0,-58.47297505,-34.66245085,Cargas,Cruce
 2020-0023,Conductor,Auto,Masculino,44,24.0,1.0,2020-04-09 00:00:00,18,Avenida,"Araoz de Lamadrid, Gregorio, Gral.",4.0,-58.35791192,-34.63695178,Cargas,Cruce
 2020-0024,Conductor,Auto,Masculino,53,0.0,1.0,2020-04-24 00:00:00,7,Calle,Murguiondo,9.0,-58.50801713,-34.65177305,Auto,Altura
-2020-0025,Peaton,Peaton,Masculino,Sd,0.0,1.0,2020-05-12 00:00:00,5,Avenida,Rivadavia Av.,3.0,-58.40258477,-34.60975108,Auto,Altura
-2020-0026,Conductor,Moto,Masculino,28,0.0,1.0,2020-05-17 00:00:00,6,Autopista,"Lugones, Leopoldo Av.",14.0,-58.43055555555555,-34.58888888888889,Objeto Fijo,Sd
+2020-0025,Peaton,Peaton,Masculino,,0.0,1.0,2020-05-12 00:00:00,5,Avenida,Rivadavia Av.,3.0,-58.40258477,-34.60975108,Auto,Altura
+2020-0026,Conductor,Moto,Masculino,28,0.0,1.0,2020-05-17 00:00:00,6,Autopista,"Lugones, Leopoldo Av.",14.0,-58.43055555555555,-34.58888888888889,Objeto Fijo,
 2020-0027,Peaton,Peaton,Masculino,76,0.0,1.0,2020-05-18 00:00:00,8,Avenida,"Dellepiane, Luis, Tte. Gral.",8.0,-58.48267426,-34.68454456,Cargas,Cruce
 2020-0028,Peaton,Peaton,Masculino,91,4.0,1.0,2020-05-19 00:00:00,10,Avenida,"Scalabrini Ortiz, Raul Av.",15.0,-58.44248936,-34.60221948,Pasajeros,Cruce
-2020-0029,Peaton,Peaton,Masculino,80,2.0,1.0,2020-06-10 00:00:00,14,Gral Paz,"Paz, Gral. Av.",9.0,-58.52909134,-34.63886726,Pasajeros,Cruce
+2020-0029,Peaton,Peaton,Masculino,80,2.0,1.0,2020-06-10 00:00:00,14,Autopista,"Paz, Gral. Av.",9.0,-58.52909134,-34.63886726,Pasajeros,Cruce
 2020-0030,Conductor,Moto,Masculino,40,0.0,1.0,2020-06-16 00:00:00,15,Avenida,San Martin Av.,6.0,-58.45158942,-34.60646580,Multiple,Altura
 2020-0031,Conductor,Moto,Masculino,29,0.0,1.0,2020-06-30 00:00:00,8,Avenida,"Garzon, Eugenio, Gral. Av.",9.0,-58.49344309,-34.65788529,Cargas,Cruce
 2020-0032,Conductor,Moto,Masculino,21,0.0,1.0,2020-07-10 00:00:00,23,Avenida,Corrientes Av.,15.0,-58.44259166,-34.59635137,Auto,Cruce
-2020-0033,Conductor,Auto,Masculino,32,0.0,1.0,2020-07-19 00:00:00,6,Gral Paz,"Paz, Gral. Av.",13.0,-58.46743471,-34.53476874,Objeto Fijo,Cruce
-2020-0034,Peaton,Peaton,Femenino,Sd,0.0,1.0,2020-08-02 00:00:00,3,Calle,"Mitre, Bartolome",3.0,-58.41178158,-34.60922259,Auto,Cruce
-2020-0035,Conductor,Moto,Masculino,40,0.0,1.0,2020-08-04 00:00:00,5,Autopista,Autopista 25 de Mayo,7.0,-58.45068621,-34.63638927,Pasajeros,Sd
+2020-0033,Conductor,Auto,Masculino,32,0.0,1.0,2020-07-19 00:00:00,6,Autopista,"Paz, Gral. Av.",13.0,-58.46743471,-34.53476874,Objeto Fijo,Cruce
+2020-0034,Peaton,Peaton,Femenino,,0.0,1.0,2020-08-02 00:00:00,3,Calle,"Mitre, Bartolome",3.0,-58.41178158,-34.60922259,Auto,Cruce
+2020-0035,Conductor,Moto,Masculino,40,0.0,1.0,2020-08-04 00:00:00,5,Autopista,Autopista 25 de Mayo,7.0,-58.45068621,-34.63638927,Pasajeros,
 2020-0036,Peaton,Peaton,Masculino,72,15.0,1.0,2020-08-07 00:00:00,18,Avenida,"Scalabrini Ortiz, Raul Av.",14.0,-58.42016954,-34.58778790,Moto,Cruce
 2020-0037,Peaton,Peaton,Masculino,38,0.0,1.0,2020-08-29 00:00:00,4,Avenida,"Fernandez de la Cruz, F., Gral. Av.",8.0,-58.43850413,-34.65554754,Auto,Cruce
 2020-0038,Conductor,Auto,Masculino,46,0.0,2.0,2020-08-30 00:00:00,4,Avenida,las Heras General Av.,14.0,-58.40617526,-34.58345898,Auto,Cruce
 2020-0038,Conductor,Auto,Masculino,64,0.0,2.0,2020-08-30 00:00:00,4,Avenida,las Heras General Av.,14.0,-58.40617526,-34.58345898,Auto,Cruce
-2020-0039,Peaton,Peaton,Masculino,44,0.0,1.0,2020-09-01 00:00:00,19,Calle,Murguiondo,9.0,-58.483333333333334,-34.65,Cargas,Sd
-2020-0040,Conductor,Auto,Masculino,Sd,0.0,1.0,2020-09-12 00:00:00,3,Avenida,"Castillo, Ramon S., Pres. Av.",2.0,-58.38526125,-34.57805810,Objeto Fijo,Cruce
+2020-0039,Peaton,Peaton,Masculino,44,0.0,1.0,2020-09-01 00:00:00,19,Calle,Murguiondo,9.0,-58.483333333333334,-34.65,Cargas,
+2020-0040,Conductor,Auto,Masculino,,0.0,1.0,2020-09-12 00:00:00,3,Avenida,"Castillo, Ramon S., Pres. Av.",2.0,-58.38526125,-34.57805810,Objeto Fijo,Cruce
 2020-0041,Conductor,Moto,Masculino,34,0.0,1.0,2020-09-28 00:00:00,1,Avenida,Curapaligue,7.0,-58.44750470,-34.63491705,Pasajeros,Cruce
 2020-0042,Peaton,Peaton,Femenino,53,0.0,1.0,2020-09-29 00:00:00,17,Avenida,"Diaz, Ana",8.0,-58.46745752,-34.68192648,Pasajeros,Cruce
 2020-0043,Peaton,Peaton,Masculino,64,0.0,1.0,2020-09-30 00:00:00,17,Avenida,"Alem, Leandro N. Av.",1.0,-58.37202621,-34.59717942,Pasajeros,Cruce
 2020-0044,Conductor,Auto,Masculino,43,0.0,1.0,2020-10-05 00:00:00,0,Avenida,la Plata Av.,6.0,-58.42779702,-34.62207347,Auto,Cruce
-2020-0045,Conductor,Auto,Masculino,50,0.0,1.0,2020-10-19 00:00:00,3,Gral Paz,"Paz, Gral. Av.",8.0,-58.46244952,-34.70524971,Cargas,Cruce
+2020-0045,Conductor,Auto,Masculino,50,0.0,1.0,2020-10-19 00:00:00,3,Autopista,"Paz, Gral. Av.",8.0,-58.46244952,-34.70524971,Cargas,Cruce
 2020-0046,Conductor,Moto,Masculino,41,0.0,1.0,2020-10-27 00:00:00,21,Avenida,Nazca Av.,11.0,-58.48440160,-34.60776782,Moto,Cruce
 2020-0047,Peaton,Peaton,Masculino,15,0.0,1.0,2020-10-27 00:00:00,14,Autopista,Autopista Presidente Hector J. Campora,9.0,-58.46668375,-34.65174801,Cargas,Cruce
 2020-0048,Conductor,Moto,Masculino,41,0.0,1.0,2020-10-29 00:00:00,20,Avenida,Dorrego Av.,15.0,-58.44958780,-34.59322448,Objeto Fijo,Altura
@@ -594,7 +592,7 @@ Id,Rol,Víctima,Sexo,Edad,Días_de_muerte_post_accidente,No_víctimas,Fecha,Hora
 2020-0053,Pasajero_acompañante,Auto,Masculino,27,0.0,1.0,2020-11-09 00:00:00,3,Avenida,"Alcorta, Amancio Av.",4.0,-58.41125934,-34.65417740,Auto,Cruce
 2020-0054,Ciclista,Bicicleta,Masculino,59,4.0,1.0,2020-11-19 00:00:00,9,Calle,Inclan,4.0,-58.39956546,-34.62977080,Auto,Cruce
 2020-0055,Peaton,Peaton,Masculino,91,22.0,1.0,2020-11-19 00:00:00,12,Avenida,Olazabal Av.,12.0,-58.49005682,-34.57868970,Cargas,Altura
-2020-0056,Conductor,Moto,Femenino,34,0.0,1.0,2020-11-21 00:00:00,13,Gral Paz,"Paz, Gral. Av.",8.0,-58.47064556,-34.69843756,Cargas,Cruce
+2020-0056,Conductor,Moto,Femenino,34,0.0,1.0,2020-11-21 00:00:00,13,Autopista,"Paz, Gral. Av.",8.0,-58.47064556,-34.69843756,Cargas,Cruce
 2020-0057,Peaton,Peaton,Masculino,84,0.0,1.0,2020-11-23 00:00:00,7,Avenida,Nazca Av.,11.0,-58.47501560,-34.61945902,Auto,Cruce
 2020-0058,Peaton,Peaton,Masculino,57,1.0,1.0,2020-11-24 00:00:00,16,Avenida,Olivera Av.,10.0,-58.48727942,-34.63652467,Auto,Cruce
 2020-0059,Peaton,Peaton,Femenino,49,13.0,1.0,2020-12-01 00:00:00,6,Calle,Brasil,1.0,-58.37951690,-34.62794241,Pasajeros,Altura
@@ -603,8 +601,8 @@ Id,Rol,Víctima,Sexo,Edad,Días_de_muerte_post_accidente,No_víctimas,Fecha,Hora
 2020-0062,Ciclista,Bicicleta,Masculino,47,0.0,1.0,2020-12-04 00:00:00,17,Calle,Moreno,3.0,-58.39246272,-34.61253541,Pasajeros,Altura
 2020-0063,Peaton,Peaton,Masculino,38,0.0,2.0,2020-12-05 00:00:00,7,Calle,Nueva York,11.0,-58.52783814,-34.61047001,Moto,Cruce
 2020-0063,Pasajero_acompañante,Moto,Masculino,21,0.0,2.0,2020-12-05 00:00:00,7,Calle,Nueva York,11.0,-58.52783814,-34.61047001,Moto,Cruce
-2020-0065,Conductor,Moto,Masculino,24,1.0,1.0,2020-12-05 00:00:00,16,Gral Paz,"Paz, Gral. Av.",12.0,-58.49332664,-34.54836855,Auto,Cruce
-2020-0066,Conductor,Moto,Masculino,27,0.0,1.0,2020-12-07 00:00:00,4,Autopista,Autopista Perito Moreno,10.0,-58.50178784,-34.63593897,Objeto Fijo,Sd
+2020-0065,Conductor,Moto,Masculino,24,1.0,1.0,2020-12-05 00:00:00,16,Autopista,"Paz, Gral. Av.",12.0,-58.49332664,-34.54836855,Auto,Cruce
+2020-0066,Conductor,Moto,Masculino,27,0.0,1.0,2020-12-07 00:00:00,4,Autopista,Autopista Perito Moreno,10.0,-58.50178784,-34.63593897,Objeto Fijo,
 2020-0067,Peaton,Peaton,Masculino,51,0.0,1.0,2020-12-11 00:00:00,22,Avenida,Saenz Av.,4.0,-58.41657793,-34.65476216,Pasajeros,Cruce
 2020-0068,Conductor,Moto,Masculino,71,8.0,1.0,2020-12-12 00:00:00,20,Avenida,del Libertador Av.,2.0,-58.39731474,-34.58307887,Auto,Cruce
 2020-0069,Pasajero_acompañante,Moto,Masculino,25,0.0,1.0,2020-12-15 00:00:00,5,Avenida,Independencia Av.,1.0,-58.38746381,-34.61790839,Pasajeros,Cruce
@@ -618,19 +616,19 @@ Id,Rol,Víctima,Sexo,Edad,Días_de_muerte_post_accidente,No_víctimas,Fecha,Hora
 2020-0077,Conductor,Moto,Femenino,30,0.0,2.0,2020-12-25 00:00:00,6,Avenida,San Martin Av.,15.0,-58.47220945,-34.60111373,Auto,Cruce
 2020-0077,Pasajero_acompañante,Moto,Femenino,24,0.0,2.0,2020-12-25 00:00:00,6,Avenida,San Martin Av.,15.0,-58.47220945,-34.60111373,Auto,Cruce
 2020-0078,Ciclista,Bicicleta,Masculino,26,0.0,1.0,2020-12-25 00:00:00,5,Calle,Barco Centenera del,7.0,-58.43706741,-34.63217813,Pasajeros,Altura
-2020-0079,Conductor,Moto,Masculino,28,0.0,1.0,2020-12-27 00:00:00,4,Gral Paz,"Paz, Gral. Av.",12.0,-58.49332664,-34.54836855,Objeto Fijo,Cruce
-2021-0001,Conductor,Moto,Masculino,36,0.0,1.0,2021-01-06 00:00:00,18,Autopista,Autopista 1 Sur Presidente Arturo Frondizi,1.0,-58.37960727,-34.62622851,Auto,Sd
+2020-0079,Conductor,Moto,Masculino,28,0.0,1.0,2020-12-27 00:00:00,4,Autopista,"Paz, Gral. Av.",12.0,-58.49332664,-34.54836855,Objeto Fijo,Cruce
+2021-0001,Conductor,Moto,Masculino,36,0.0,1.0,2021-01-06 00:00:00,18,Autopista,Autopista 1 Sur Presidente Arturo Frondizi,1.0,-58.37960727,-34.62622851,Auto,
 2021-0002,Conductor,Moto,Femenino,47,0.0,1.0,2021-01-07 00:00:00,10,Avenida,"Castro, Emilio Av.",9.0,-58.51061062,-34.64972472,Cargas,Cruce
-2021-0003,Conductor,Moto,Masculino,27,0.0,1.0,2021-01-10 00:00:00,7,Autopista,Autopista 25 de Mayo,7.0,-58.43052224,-34.62941648,Objeto Fijo,Sd
+2021-0003,Conductor,Moto,Masculino,27,0.0,1.0,2021-01-10 00:00:00,7,Autopista,Autopista 25 de Mayo,7.0,-58.43052224,-34.62941648,Objeto Fijo,
 2021-0004,Peaton,Peaton,Femenino,61,0.0,1.0,2021-01-11 00:00:00,9,Avenida,Caseros Av.,5.0,-58.41455544,-34.63866836,Cargas,Cruce
 2021-0005,Peaton,Peaton,Masculino,73,3.0,1.0,2021-01-11 00:00:00,21,Avenida,"Peron, Eva Av.",9.0,-58.46774439,-34.64730145,Auto,Altura
 2021-0006,Pasajero_acompañante,Moto,Femenino,23,0.0,1.0,2021-01-12 00:00:00,21,Autopista,Autopista Arturo Illia,14.0,-58.40786274,-34.56726817,Cargas,Cruce
 2021-0007,Conductor,Moto,Masculino,84,8.0,1.0,2021-01-18 00:00:00,10,Avenida,de los Constituyentes Av.,15.0,-58.48744301,-34.58622275,Moto,Cruce
 2021-0008,Peaton,Peaton,Masculino,28,0.0,1.0,2021-01-22 00:00:00,23,Avenida,Saenz Av.,4.0,-58.41657793,-34.65476216,Pasajeros,Cruce
 2021-0009,Conductor,Moto,Masculino,31,0.0,1.0,2021-01-23 00:00:00,5,Avenida,Paysandu,6.0,-58.45351111,-34.61134937,Objeto Fijo,Cruce
-2021-0010,Conductor,Moto,Masculino,28,0.0,1.0,2021-01-23 00:00:00,8,Gral Paz,"Paz, Gral. Av.",12.0,-58.50073810,-34.54979510,Auto,Cruce
+2021-0010,Conductor,Moto,Masculino,28,0.0,1.0,2021-01-23 00:00:00,8,Autopista,"Paz, Gral. Av.",12.0,-58.50073810,-34.54979510,Auto,Cruce
 2021-0011,Peaton,Peaton,Masculino,21,0.0,1.0,2021-01-27 00:00:00,1,Avenida,Santa Fe Av.,2.0,-58.39144148,-34.59564871,Auto,Altura
-2021-0012,Peaton,Peaton,Masculino,Sd,0.0,1.0,2021-01-29 00:00:00,20,Autopista,"Dellepiane, Luis, Tte. Gral.",8.0,-58.48191128,-34.68385968,Auto,Cruce
+2021-0012,Peaton,Peaton,Masculino,,0.0,1.0,2021-01-29 00:00:00,20,Autopista,"Dellepiane, Luis, Tte. Gral.",8.0,-58.48191128,-34.68385968,Auto,Cruce
 2021-0013,Conductor,Moto,Masculino,41,0.0,1.0,2021-01-31 00:00:00,6,Avenida,"Falcon, Ramon L.,cnel.",10.0,-58.48727942,-34.63652467,Objeto Fijo,Cruce
 2021-0014,Peaton,Peaton,Masculino,28,16.0,1.0,2021-02-02 00:00:00,0,Avenida,San Martin Av.,15.0,-58.48328708,-34.59779521,Auto,Cruce
 2021-0015,Conductor,Moto,Masculino,26,0.0,1.0,2021-02-06 00:00:00,3,Avenida,San Martin Av.,15.0,-58.49018543,-34.59724990,Objeto Fijo,Cruce
@@ -638,73 +636,73 @@ Id,Rol,Víctima,Sexo,Edad,Días_de_muerte_post_accidente,No_víctimas,Fecha,Hora
 2021-0017,Conductor,Moto,Masculino,33,0.0,1.0,2021-02-17 00:00:00,4,Avenida,Salta,1.0,-58.38262614,-34.63168269,Pasajeros,Cruce
 2021-0018,Peaton,Peaton,Masculino,36,16.0,1.0,2021-02-20 00:00:00,19,Calle,"Jaures, Jean",3.0,-58.41047268,-34.60793518,Auto,Cruce
 2021-0019,Conductor,Moto,Masculino,30,0.0,1.0,2021-02-21 00:00:00,1,Avenida,Triunvirato Av.,12.0,-58.49659234,-34.56353635,Objeto Fijo,Cruce
-2021-0020,Peaton,Peaton,Femenino,Sd,0.0,1.0,2021-02-21 00:00:00,15,Calle,Potosi,5.0,-58.42462955,-34.60727189,Cargas,Cruce
+2021-0020,Peaton,Peaton,Femenino,,0.0,1.0,2021-02-21 00:00:00,15,Calle,Potosi,5.0,-58.42462955,-34.60727189,Cargas,Cruce
 2021-0021,Conductor,Moto,Masculino,39,6.0,1.0,2021-02-26 00:00:00,5,Calle,"Yrigoyen, Hipolito",3.0,-58.41168345,-34.61185625,Objeto Fijo,Cruce
-2021-0022,Pasajero_acompañante,Pasajeros,Masculino,68,6.0,1.0,2021-02-28 00:00:00,12,Avenida,del Libertador Av.,13.0,-58.45157681,-34.55217303,Sd,Cruce
-2021-0023,Conductor,Moto,Masculino,24,0.0,1.0,2021-03-01 00:00:00,9,Autopista,Autopista Buenos Aires - la Plata,4.0,-58.42444444444444,-34.650277777777774,Cargas,Sd
+2021-0022,Pasajero_acompañante,Pasajeros,Masculino,68,6.0,1.0,2021-02-28 00:00:00,12,Avenida,del Libertador Av.,13.0,-58.45157681,-34.55217303,,Cruce
+2021-0023,Conductor,Moto,Masculino,24,0.0,1.0,2021-03-01 00:00:00,9,Autopista,Autopista Buenos Aires - la Plata,4.0,-58.42444444444444,-34.650277777777774,Cargas,
 2021-0024,Ciclista,Bicicleta,Masculino,5,0.0,1.0,2021-03-03 00:00:00,16,Avenida,"Peron, Eva Av.",9.0,-58.49573651,-34.67006054,Cargas,Cruce
-2021-0025,Conductor,Moto,Masculino,37,0.0,1.0,2021-03-11 00:00:00,3,Gral Paz,"Paz, Gral. Av.",8.0,-58.48695354,-34.68795245,otro,Cruce
-2021-0026,Conductor,Moto,Masculino,36,0.0,1.0,2021-03-15 00:00:00,2,Autopista,Autopista 1 Sur Presidente Arturo Frondizi,4.0,-58.37562539,-34.64449357,Objeto Fijo,Sd
-2021-0027,Conductor,Moto,Femenino,19,0.0,1.0,2021-03-16 00:00:00,15,Gral Paz,"Paz, Gral. Av.",12.0,-58.49491054,-34.54795581,Cargas,Cruce
-2021-0028,Peaton,Peaton,Masculino,Sd,0.0,1.0,2021-03-29 00:00:00,17,Avenida,Corea Av.,7.0,-58.44147621,-34.64357704,Pasajeros,Cruce
+2021-0025,Conductor,Moto,Masculino,37,0.0,1.0,2021-03-11 00:00:00,3,Autopista,"Paz, Gral. Av.",8.0,-58.48695354,-34.68795245,otro,Cruce
+2021-0026,Conductor,Moto,Masculino,36,0.0,1.0,2021-03-15 00:00:00,2,Autopista,Autopista 1 Sur Presidente Arturo Frondizi,4.0,-58.37562539,-34.64449357,Objeto Fijo,
+2021-0027,Conductor,Moto,Femenino,19,0.0,1.0,2021-03-16 00:00:00,15,Autopista,"Paz, Gral. Av.",12.0,-58.49491054,-34.54795581,Cargas,Cruce
+2021-0028,Peaton,Peaton,Masculino,,0.0,1.0,2021-03-29 00:00:00,17,Avenida,Corea Av.,7.0,-58.44147621,-34.64357704,Pasajeros,Cruce
 2021-0029,Conductor,Auto,Masculino,26,2.0,1.0,2021-03-31 00:00:00,18,Avenida,"Falcon, Ramon L.,cnel.",7.0,-58.46899119,-34.63215432,Auto,Cruce
 2021-0030,Peaton,Peaton,Masculino,36,4.0,1.0,2021-04-03 00:00:00,18,Calle,Finochietto Enrique Dr.,4.0,-58.38685612,-34.63455776,Pasajeros,Altura
 2021-0031,Peaton,Peaton,Femenino,68,4.0,1.0,2021-04-07 00:00:00,10,Avenida,9 de Julio Av.,1.0,-58.38113667,-34.61765323,Cargas,Cruce
 2021-0032,Peaton,Peaton,Masculino,60,19.0,1.0,2021-04-10 00:00:00,19,Autopista,"Cantilo, Int.",13.0,-58.44112678,-34.54538956,Moto,Cruce
-2021-0033,Conductor,Auto,Masculino,33,0.0,1.0,2021-04-14 00:00:00,17,Autopista,Autopista 25 de Mayo,5.0,-58.41595919,-34.62743346,Objeto Fijo,Sd
+2021-0033,Conductor,Auto,Masculino,33,0.0,1.0,2021-04-14 00:00:00,17,Autopista,Autopista 25 de Mayo,5.0,-58.41595919,-34.62743346,Objeto Fijo,
 2021-0034,Pasajero_acompañante,Moto,Femenino,26,0.0,1.0,2021-04-19 00:00:00,14,Avenida,"Alcorta, Amancio Av.",4.0,-58.40184094,-34.64546845,Cargas,Cruce
 2021-0035,Conductor,Moto,Masculino,24,0.0,1.0,2021-05-03 00:00:00,9,Avenida,"Janer, Ana Maria",8.0,-58.44642231,-34.65679806,Cargas,Cruce
-2021-0036,Conductor,Moto,Masculino,36,0.0,1.0,2021-05-09 00:00:00,6,Gral Paz,"Paz, Gral. Av.",11.0,-58.52340614,-34.59798754,Objeto Fijo,Cruce
+2021-0036,Conductor,Moto,Masculino,36,0.0,1.0,2021-05-09 00:00:00,6,Autopista,"Paz, Gral. Av.",11.0,-58.52340614,-34.59798754,Objeto Fijo,Cruce
 2021-0037,Peaton,Peaton,Femenino,58,0.0,1.0,2021-05-11 00:00:00,7,Avenida,Monroe,13.0,-58.46649069,-34.56219075,Pasajeros,Cruce
 2021-0038,Conductor,Moto,Femenino,44,0.0,1.0,2021-05-14 00:00:00,11,Avenida,"Justo, Juan B. Av.",14.0,-58.42653328,-34.57816791,Cargas,Cruce
 2021-0039,Ciclista,Bicicleta,Masculino,86,21.0,1.0,2021-05-15 00:00:00,12,Avenida,Oliden,9.0,-58.50407099,-34.65303372,Auto,Cruce
-2021-0040,Conductor,Moto,Masculino,27,0.0,1.0,2021-05-20 00:00:00,5,Gral Paz,"Paz, Gral. Av.",13.0,-58.46743471,-34.53476874,Auto,Cruce
+2021-0040,Conductor,Moto,Masculino,27,0.0,1.0,2021-05-20 00:00:00,5,Autopista,"Paz, Gral. Av.",13.0,-58.46743471,-34.53476874,Auto,Cruce
 2021-0041,Peaton,Peaton,Masculino,75,0.0,1.0,2021-05-20 00:00:00,8,Avenida,del Libertador Av.,14.0,-58.40986646,-34.57728060,Pasajeros,Cruce
 2021-0042,Peaton,Peaton,Masculino,39,0.0,1.0,2021-05-21 00:00:00,5,Avenida,Rivadavia Av.,9.0,-58.51739138,-34.63931792,Pasajeros,Altura
 2021-0043,Peaton,Peaton,Masculino,50,0.0,1.0,2021-05-22 00:00:00,18,Avenida,"Alberdi, Juan Bautista Av.",9.0,-58.50719962,-34.65556223,Auto,Cruce
 2021-0044,Pasajero_acompañante,Moto,Masculino,21,0.0,1.0,2021-05-25 00:00:00,2,Avenida,"Peron, Eva Av.",9.0,-58.46712311,-34.64600222,Objeto Fijo,Cruce
-2021-0045,Conductor,Moto,Masculino,22,0.0,1.0,2021-05-26 00:00:00,17,Autopista,Autopista 1 Sur Presidente Arturo Frondizi,4.0,-58.37709334,-34.64035082,Multiple,Sd
+2021-0045,Conductor,Moto,Masculino,22,0.0,1.0,2021-05-26 00:00:00,17,Autopista,Autopista 1 Sur Presidente Arturo Frondizi,4.0,-58.37709334,-34.64035082,Multiple,
 2021-0046,Pasajero_acompañante,Auto,Masculino,20,0.0,1.0,2021-05-31 00:00:00,2,Avenida,Elcano Av.,15.0,-58.46033141,-34.58569883,Objeto Fijo,Cruce
 2021-0047,Conductor,Moto,Masculino,59,0.0,1.0,2021-06-02 00:00:00,16,Avenida,"Vedia, Agustin de",4.0,-58.42190745,-34.65633192,Auto,Cruce
 2021-0048,Ciclista,Bicicleta,Masculino,44,20.0,1.0,2021-06-03 00:00:00,9,Avenida,Capdevila,12.0,-58.49026573,-34.56981410,Auto,Cruce
 2021-0049,Conductor,Auto,Masculino,74,0.0,1.0,2021-06-03 00:00:00,20,Avenida,"Fernandez de la Cruz, F., Gral. Av.",8.0,-58.45410344,-34.66902702,Auto,Altura
 2021-0050,Conductor,Moto,Masculino,56,0.0,1.0,2021-06-10 00:00:00,13,Avenida,del Libertador Av.,13.0,-58.44751621,-34.55719892,Pasajeros,Altura
 2021-0051,Peaton,Peaton,Masculino,73,1.0,1.0,2021-06-15 00:00:00,19,Avenida,27 de Febrero Av.,4.0,-58.42040352,-34.66005171,Cargas,Cruce
-2021-0052,Pasajero_acompañante,Moto,Femenino,19,0.0,1.0,2021-06-20 00:00:00,5,Gral Paz,"Paz, Gral. Av.",8.0,-58.49530249,-34.68010798,Objeto Fijo,Altura
+2021-0052,Pasajero_acompañante,Moto,Femenino,19,0.0,1.0,2021-06-20 00:00:00,5,Autopista,"Paz, Gral. Av.",8.0,-58.49530249,-34.68010798,Objeto Fijo,Altura
 2021-0053,Peaton,Peaton,Masculino,58,10.0,1.0,2021-06-20 00:00:00,12,Avenida,Corrientes Av.,15.0,-58.44399875,-34.59477360,Bicicleta,Altura
 2021-0054,Conductor,Moto,Masculino,41,0.0,1.0,2021-06-22 00:00:00,14,Calle,Tabare,4.0,-58.42759813,-34.65463857,Cargas,Cruce
 2021-0055,Pasajero_acompañante,Moto,Masculino,47,0.0,1.0,2021-06-29 00:00:00,12,Avenida,Corrientes Av.,3.0,-58.40547222,-34.60456293,Cargas,Cruce
 2021-0056,Ciclista,Bicicleta,Masculino,60,0.0,1.0,2021-07-09 00:00:00,23,Avenida,Corrales,4.0,-58.42473018,-34.65008280,Auto,Cruce
-2021-0057,Conductor,Auto,Masculino,46,0.0,1.0,2021-07-10 00:00:00,23,Autopista,Autopista Arturo Illia,2.0,-58.39257023,-34.57563957,Objeto Fijo,Sd
-2021-0058,Peaton,Peaton,Masculino,24,0.0,1.0,2021-07-21 00:00:00,0,Gral Paz,"Paz, Gral. Av.",12.0,-58.48941042,-34.54596153,Auto,Cruce
+2021-0057,Conductor,Auto,Masculino,46,0.0,1.0,2021-07-10 00:00:00,23,Autopista,Autopista Arturo Illia,2.0,-58.39257023,-34.57563957,Objeto Fijo,
+2021-0058,Peaton,Peaton,Masculino,24,0.0,1.0,2021-07-21 00:00:00,0,Autopista,"Paz, Gral. Av.",12.0,-58.48941042,-34.54596153,Auto,Cruce
 2021-0059,Pasajero_acompañante,Auto,Femenino,44,0.0,1.0,2021-07-22 00:00:00,1,Avenida,"Garay, Juan de Av.",3.0,-58.39640740,-34.62783085,Objeto Fijo,Altura
 2021-0060,Peaton,Peaton,Femenino,80,0.0,1.0,2021-07-22 00:00:00,12,Avenida,"Salguero, Jeronimo",5.0,-58.41971993,-34.61112240,Pasajeros,Cruce
 2021-0061,Peaton,Peaton,Femenino,55,0.0,1.0,2021-07-24 00:00:00,9,Avenida,"Moreno, Perito Av.",4.0,-58.40544588,-34.65012801,Cargas,Cruce
 2021-0062,Conductor,Auto,Masculino,73,0.0,1.0,2021-07-27 00:00:00,7,Avenida,la Plata Av.,4.0,-58.42003882,-34.64645957,Cargas,Altura
 2021-0063,Pasajero_acompañante,Auto,Femenino,31,0.0,1.0,2021-08-02 00:00:00,4,Avenida,"Alberdi, Juan Bautista Av.",7.0,-58.46851293,-34.63348678,Auto,Altura
-2021-0064,Peaton,Peaton,Masculino,37,1.0,1.0,2021-08-02 00:00:00,20,Gral Paz,"Paz, Gral. Av.",9.0,-58.52931141,-34.65422917,Cargas,Cruce
+2021-0064,Peaton,Peaton,Masculino,37,1.0,1.0,2021-08-02 00:00:00,20,Autopista,"Paz, Gral. Av.",9.0,-58.52931141,-34.65422917,Cargas,Cruce
 2021-0065,Peaton,Peaton,Femenino,63,4.0,1.0,2021-08-06 00:00:00,8,Avenida,San Juan Av.,6.0,-58.42675754,-34.62699730,Pasajeros,Cruce
 2021-0066,Peaton,Peaton,Masculino,59,3.0,1.0,2021-08-06 00:00:00,20,Avenida,Lope de Vega Av.,11.0,-58.52933723,-34.61098186,Pasajeros,Cruce
-2021-0067,Conductor,Moto,Masculino,27,0.0,1.0,2021-08-08 00:00:00,9,Autopista,Autopista 1 Sur Presidente Arturo Frondizi,1.0,-58.37910943,-34.62764718,Objeto Fijo,Sd
+2021-0067,Conductor,Moto,Masculino,27,0.0,1.0,2021-08-08 00:00:00,9,Autopista,Autopista 1 Sur Presidente Arturo Frondizi,1.0,-58.37910943,-34.62764718,Objeto Fijo,
 2021-0068,Conductor,Moto,Masculino,39,0.0,1.0,2021-08-15 00:00:00,6,Avenida,"Beiro, Francisco Av.",11.0,-58.52161176,-34.61164474,Objeto Fijo,Altura
 2021-0069,Peaton,Peaton,Masculino,17,1.0,1.0,2021-08-20 00:00:00,17,Avenida,Santa Fe Av.,14.0,-58.41354692,-34.58697680,Auto,Altura
 2021-0070,Conductor,Moto,Masculino,31,0.0,1.0,2021-08-28 00:00:00,8,Avenida,"Chilavert, Martiniano, Coronel",8.0,-58.43960781,-34.65470804,Cargas,Cruce
 2021-0071,Peaton,Peaton,Masculino,88,1.0,1.0,2021-08-31 00:00:00,16,Calle,San Luis,3.0,-58.40454610,-34.60003693,Moto,Altura
 2021-0072,Peaton,Peaton,Femenino,57,0.0,1.0,2021-09-01 00:00:00,19,Avenida,Callao Av.,2.0,-58.39303911,-34.59871111,Auto,Cruce
 2021-0073,Ciclista,Bicicleta,Femenino,76,0.0,1.0,2021-09-18 00:00:00,12,Avenida,del Libertador Av.,2.0,-58.39391034,-34.58405348,Auto,Cruce
-2021-0074,Conductor,Moto,Masculino,55,0.0,1.0,2021-09-20 00:00:00,15,Gral Paz,"Paz, Gral. Av.",12.0,-58.50073810,-34.54979510,Multiple,Cruce
+2021-0074,Conductor,Moto,Masculino,55,0.0,1.0,2021-09-20 00:00:00,15,Autopista,"Paz, Gral. Av.",12.0,-58.50073810,-34.54979510,Multiple,Cruce
 2021-0075,Peaton,Peaton,Masculino,65,0.0,1.0,2021-09-21 00:00:00,14,Calle,Salta,1.0,-58.38281301,-34.62786038,Cargas,Cruce
 2021-0076,Conductor,Moto,Masculino,31,0.0,1.0,2021-10-16 00:00:00,6,Avenida,"Moreno, Perito Av.",7.0,-58.43980799,-34.65094083,Objeto Fijo,Altura
 2021-0077,Conductor,Moto,Femenino,31,0.0,1.0,2021-10-18 00:00:00,7,Avenida,Directorio Av.,6.0,-58.44402387,-34.62933109,Cargas,Altura
 2021-0078,Conductor,Moto,Masculino,22,0.0,1.0,2021-10-23 00:00:00,6,Avenida,Independencia Av.,6.0,-58.42779702,-34.62207347,Pasajeros,Cruce
-2021-0079,Peaton,Peaton,Masculino,Sd,0.0,1.0,2021-10-25 00:00:00,3,Calle,Tucuman,3.0,-58.40944147,-34.60097942,Auto,Altura
+2021-0079,Peaton,Peaton,Masculino,,0.0,1.0,2021-10-25 00:00:00,3,Calle,Tucuman,3.0,-58.40944147,-34.60097942,Auto,Altura
 2021-0080,Conductor,Moto,Masculino,32,0.0,1.0,2021-10-28 00:00:00,16,Avenida,Arenales,1.0,-58.38277479,-34.59430160,Auto,Cruce
-2021-0081,Conductor,Moto,Masculino,26,0.0,1.0,2021-11-02 00:00:00,13,Autopista,Autopista 1 Sur Presidente Arturo Frondizi,4.0,-58.37627355,-34.63800916,Cargas,Sd
-2021-0082,Conductor,Moto,Masculino,38,0.0,1.0,2021-11-06 00:00:00,4,Autopista,Autopista 25 de Mayo,3.0,-58.39591856,-34.62453459,Auto,Sd
+2021-0081,Conductor,Moto,Masculino,26,0.0,1.0,2021-11-02 00:00:00,13,Autopista,Autopista 1 Sur Presidente Arturo Frondizi,4.0,-58.37627355,-34.63800916,Cargas,
+2021-0082,Conductor,Moto,Masculino,38,0.0,1.0,2021-11-06 00:00:00,4,Autopista,Autopista 25 de Mayo,3.0,-58.39591856,-34.62453459,Auto,
 2021-0083,Conductor,Moto,Masculino,30,0.0,1.0,2021-11-09 00:00:00,0,Avenida,Cabildo Av.,13.0,-58.45829717,-34.56015762,Auto,Cruce
 2021-0084,Conductor,Auto,Masculino,32,0.0,1.0,2021-11-11 00:00:00,3,Avenida,Tapalque,9.0,-58.49142611,-34.64584795,Objeto Fijo,Cruce
 2021-0097,Ciclista,Bicicleta,Masculino,53,1.0,1.0,2021-11-18 00:00:00,6,Calle,Padre Carlos Mujica,1.0,-58.37976155,-34.58679619,Auto,Altura
-2021-0085,Conductor,Moto,Masculino,49,0.0,1.0,2021-11-20 00:00:00,18,Gral Paz,"Paz, Gral. Av.",12.0,-58.51271409,-34.57786555,Objeto Fijo,Cruce
+2021-0085,Conductor,Moto,Masculino,49,0.0,1.0,2021-11-20 00:00:00,18,Autopista,"Paz, Gral. Av.",12.0,-58.51271409,-34.57786555,Objeto Fijo,Cruce
 2021-0086,Peaton,Peaton,Masculino,75,0.0,1.0,2021-11-25 00:00:00,10,Avenida,Rivadavia Av.,6.0,-58.44864864,-34.62352826,Pasajeros,Cruce
 2021-0087,Peaton,Peaton,Femenino,73,0.0,1.0,2021-11-27 00:00:00,11,Calle,Esmeralda,1.0,-58.37795815,-34.59167894,Bicicleta,Altura
 2021-0088,Conductor,Moto,Masculino,45,6.0,1.0,2021-12-01 00:00:00,15,Calle,Monroe,13.0,-58.45531707,-34.55555257,Auto,Cruce
