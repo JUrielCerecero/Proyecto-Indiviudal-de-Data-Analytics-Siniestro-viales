@@ -31,11 +31,11 @@ Primero encontramos una visualización general del total de datos del datset a t
 
 Se buscaron outliers en las columnas Edad, Días de muerte post accidente y No víctimas, pero no se encontraron valores atípicos, todos estaban dentro de rangos normales para cada tipo de dato.
 
-![outliers edad](https://github.com/JUrielCerecero/Proyecto-Indiviudal-de-Data-Analytics-Siniestro-viales/blob/main/im%C3%A1genes/outlier%edad.png)
+![outliers edad](https://github.com/JUrielCerecero/Proyecto-Indiviudal-de-Data-Analytics-Siniestro-viales/blob/main/im%C3%A1genes/outlier%20edad.png)
 
-![outliers dias muerte](https://github.com/JUrielCerecero/Proyecto-Indiviudal-de-Data-Analytics-Siniestro-viales/blob/main/im%C3%A1genes/outliers%dias%muerte.png)
+![outliers dias muerte](https://github.com/JUrielCerecero/Proyecto-Indiviudal-de-Data-Analytics-Siniestro-viales/blob/main/im%C3%A1genes/outliers%20dias%20muerte.png)
 
-![outliers no victimas](https://github.com/JUrielCerecero/Proyecto-Indiviudal-de-Data-Analytics-Siniestro-viales/blob/main/im%C3%A1genes/outliers%no%victimas.png)
+![outliers no victimas](https://github.com/JUrielCerecero/Proyecto-Indiviudal-de-Data-Analytics-Siniestro-viales/blob/main/im%C3%A1genes/outliers%20no%20victimas.png)
 
 ### Fecha
 Se analizaron la columna de fechas con el año, para visualizar los accidnetes por año, donde podemos observar que el año con más accidentes fué el 2018, despúes vimos una disminución drástica para lo siguientes años, esto puede deberse a que a principios de 2020 se expandió a nivel mundial la pandemia del COVID 19, lo cual repercutió en que la gente se aislará en sus casa el primer año de pandemia, y en los años posteriores empezó a disminuir este aislamiento.
@@ -137,7 +137,9 @@ Aquí estamos analizando que relación hay entre el medio de trnasporte que util
 - Enlace [Dashboard.pbix](https://github.com/JUrielCerecero/Proyecto-Indiviudal-de-Data-Analytics-Siniestro-viales/blob/main/Dashboard.pbix)
 En el Dahsboard se edesarrollan 3 tipos de analisis de diferentes puntos de vista, uno por temporalidad, uno categórico y uno geográfico, donde en cada uno se abrodan difernetes puntos de vista, dandónos diferentes panormas de todos los datos, interaxtuando con varios parámetros que nos ayudan a hacer algunos descubirmientos ocultos entre los datos.
 
-Aquí se puede acceder al Dashboard ya publicado:  [link]
+Aquí se puede acceder al Dashboard ya publicado:  
+- [Dashboard](https://app.powerbi.com/view?r=eyJrIjoiODBiM2Q1M2YtYTJjNC00M2E1LTlhMmYtYzJiYjU1MmI5NmE4IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
+- [Dashboard en novypro](https://www.novypro.com/project/análisis-de-siniestros-viales-fatales-de-la-ciudad-de-buenos-aires)
 
 
 
@@ -157,7 +159,7 @@ Según el útlimo censo, la población de Buenos Aires para el año 2022 fue de 
 
 ### Aqui podemos ver graficado, donde vamos evaluando semestre por semestre la tasa y la meta de la tasa, donde solo en el primr semestre del año 2017, los dos semestres del año 2019, el primer semestre del 2020 y el segundo semestre del 2021 se cumlió el objetivo, que era reducir la tasa de homicidios de un semestre a otro en un 10% para la Ciudad de Buenos Aires 
 
-grafica
+![KPI 1](https://github.com/JUrielCerecero/Proyecto-Indiviudal-de-Data-Analytics-Siniestro-viales/blob/main/im%C3%A1genes/kpi1.png)
 
 # KPI 2
 
@@ -167,7 +169,7 @@ Definimos a la cantidad de accidentes mortales de motociclistas en siniestros vi
 
 ### Aquí podemos observar una gráfica con la variación año con año, donde se ve el aumento o disminución del % de cada año con su respectivo año anterior,  en donde vemos que para el año 2017, 2019 y 2020 se cumplió el objetivo, dandonos a entender que se tiene que hacer mas esfuerzos en materia de concientización en conductores de motocicletas sobre la preacaución y mesura al manejar motocicletas, y el siempre estar alerta de otros conductores que puedan causar accidentes, y el hacer enfásis en siempre usar equipo de protección y que sea de calidad.
 
-grafica
+![KPI 2](https://github.com/JUrielCerecero/Proyecto-Indiviudal-de-Data-Analytics-Siniestro-viales/blob/main/im%C3%A1genes/kpi2.png)
 
 # KPI 3
 
@@ -175,7 +177,7 @@ Aquí se plantea reducir el procentaje de muertes por siniestros viales para las
 
 ### Para la siguiente gráfica tenemos la diferencia en porcentajes que hubo año contra año anterior, donde para los años 2019 fue cuando se cumplió este objetivo, si embargo esto esta ampliamente relacioado con la pandemia del COVID 19 donde hubo un aislamiento a nivel mundial y se redujo drasticamente la cantidad de personas que salían de sus casa por un largo tiempo.
 
-grafica
+![KPI 3](https://github.com/JUrielCerecero/Proyecto-Indiviudal-de-Data-Analytics-Siniestro-viales/blob/main/im%C3%A1genes/kpi3.png)
 
 ## Conclusiones
 
