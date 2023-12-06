@@ -8,11 +8,17 @@ El Observatorio de Movilidad y Seguridad Vial (OMSV), centro de estudios que se 
 
 Se hizo una limpieza de la hoja de hechos y vçitimas por separado.
 Se quitaron duplicados, se seleccionaron columnas que contuvieran información relevante para el análisis o que nos aportaron algún dato útil en algún punto.
+
 Los valores que venían por default con SD se checó si se podían tomar de alguna columna como en algunos casos se puedieron sacar de la columna LUGAR DEL HECHO, en las coordenadas si no había alguna se tomaba como referencia la coordenada de la comuna perteneciete y se pusó solo como un punto de referencia, no como un valor exacto.
+
 Los cruces faltantes o alturas se sacaron de lugar del hecho.
+
 De la hoja víctimas  se hizo el mismo proeceso de duplicados, nulos, valores anormales.
+
 Al final se hizo la unión de las dos tablas, y si había algún valor nulo porque faltaba en una de las hojas al hacer la unión se le puso como valor Sd.
-Se cambiaron los valores de Sd por NA para facilitar el proceso de graficar en el EDA
+
+Se cambiaron los valores de Sd por NA para facilitar el proceso de graficar en el EDA.
+
 También se realizó una tabla con el conteo de víctimas agrupado por comuna y con webscrapping se obtuvo el dato de las coordenadas de referencia de las 15 comunas, todo esto para hacer una gráfica de mapa en el Dashboard.
 
 
@@ -24,12 +30,10 @@ Primero encontramos una visualización general del total de datos del datset a t
 
 Se buscaron outliers en las columnas Edad, Días de muerte post accidente y No víctimas, pero no se encontraron valores atípicos, todos estaban dentro de rangos normales para cada tipo de dato.
 
-graficas
-
 ### Fecha
 Se analizaron la columna de fechas con el año, para visualizar los accidnetes por año, donde podemos observar que el año con más accidentes fué el 2018, despúes vimos una disminución drástica para lo siguientes años, esto puede deberse a que a principios de 2020 se expandió a nivel mundial la pandemia del COVID 19, lo cual repercutió en que la gente se aislará en sus casa el primer año de pandemia, y en los años posteriores empezó a disminuir este aislamiento.
 
-grafica 1
+![grafica 1](https://github.com/JUrielCerecero/Proyecto-Indiviudal-de-Data-Analytics-Siniestro-viales/blob/main/im%C3%A1genes/grafica%201.png)
 
 
 ### Rol de la víctima en el medio de transporte que ocupaba
