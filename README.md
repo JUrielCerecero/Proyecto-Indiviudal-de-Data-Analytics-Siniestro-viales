@@ -138,7 +138,7 @@ Aquí estamos analizando que relación hay entre el medio de trnasporte que util
 En el Dahsboard se edesarrollan 3 tipos de analisis de diferentes puntos de vista, uno por temporalidad, uno categórico y uno geográfico, donde en cada uno se abrodan difernetes puntos de vista, dandónos diferentes panormas de todos los datos, interaxtuando con varios parámetros que nos ayudan a hacer algunos descubirmientos ocultos entre los datos.
 
 Aquí se puede acceder al Dashboard ya publicado:  
-- [Dashboard](https://app.powerbi.com/view?r=eyJrIjoiODBiM2Q1M2YtYTJjNC00M2E1LTlhMmYtYzJiYjU1MmI5NmE4IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
+- [Dashboard](https://app.powerbi.com/view?r=eyJrIjoiODBiM2Q1M2YtYTJjNC00M2E1LTlhMmYtYzJiYjU1MmI5NmE4IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=ReportSection)
 - [Dashboard en novypro](https://www.novypro.com/project/análisis-de-siniestros-viales-fatales-de-la-ciudad-de-buenos-aires)
 
 
