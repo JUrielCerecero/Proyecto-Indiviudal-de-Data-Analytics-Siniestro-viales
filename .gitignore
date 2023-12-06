@@ -151,3 +151,7 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 Readme consignas.md
+ETL lesiones.ipynb
+Datasets/lesiones_hechos.csv
+Datasets/lesiones_victimas.csv
+Datasets/lesiones.xlsx
