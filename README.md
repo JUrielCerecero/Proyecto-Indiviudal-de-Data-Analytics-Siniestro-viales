@@ -201,7 +201,7 @@ Aquí se plantea reducir el procentaje de muertes por siniestros viales para las
 
 - Las personas en un rango de 18 a 35 años de edad son las que más mueren en siniestros viales fatales.
 
-- La comuna 1 encabeza la lista de más siniestros viales fatlaes, deguod de la 4 y la 9.
+- La comuna 1 encabeza la lista de más siniestros viales fatales, seguidos de la 4 y la 9.
 
 - Los automóviles encabezan el grupo que más fue acusado de causar el siniestro vial.
 
